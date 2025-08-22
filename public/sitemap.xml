@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- Main page -->
+  <url>
+    <loc>https://learning-app.vercel.app/</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://learning-app.vercel.app/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://learning-app.vercel.app/?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://learning-app.vercel.app/?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://learning-app.vercel.app/?lang=fr" />
+  </url>
+
+  <!-- F/V Sounds Game -->
+  <url>
+    <loc>https://learning-app.vercel.app/game/fv-sounds</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://learning-app.vercel.app/game/fv-sounds?lang=en" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://learning-app.vercel.app/game/fv-sounds?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://learning-app.vercel.app/game/fv-sounds?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://learning-app.vercel.app/game/fv-sounds?lang=fr" />
+  </url>
+
+  <!-- CH/J Sounds Game -->
+  <url>
+    <loc>https://learning-app.vercel.app/game/chj-sounds</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://learning-app.vercel.app/game/chj-sounds?lang=en" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://learning-app.vercel.app/game/chj-sounds?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://learning-app.vercel.app/game/chj-sounds?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://learning-app.vercel.app/game/chj-sounds?lang=fr" />
+  </url>
+
+  <!-- Hangman Game -->
+  <url>
+    <loc>https://learning-app.vercel.app/game/hangman</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://learning-app.vercel.app/game/hangman?lang=en" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://learning-app.vercel.app/game/hangman?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://learning-app.vercel.app/game/hangman?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://learning-app.vercel.app/game/hangman?lang=fr" />
+  </url>
+
+  <!-- Colors Game -->
+  <url>
+    <loc>https://learning-app.vercel.app/game/colors</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://learning-app.vercel.app/game/colors?lang=en" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://learning-app.vercel.app/game/colors?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://learning-app.vercel.app/game/colors?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://learning-app.vercel.app/game/colors?lang=fr" />
+  </url>
+
+  <!-- Numbers Game -->
+  <url>
+    <loc>https://learning-app.vercel.app/game/numbers</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://learning-app.vercel.app/game/numbers?lang=en" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://learning-app.vercel.app/game/numbers?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://learning-app.vercel.app/game/numbers?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://learning-app.vercel.app/game/numbers?lang=fr" />
+  </url>
+
+  <!-- Home Objects Game -->
+  <url>
+    <loc>https://learning-app.vercel.app/game/home-objects</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://learning-app.vercel.app/game/home-objects?lang=en" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://learning-app.vercel.app/game/home-objects?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://learning-app.vercel.app/game/home-objects?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://learning-app.vercel.app/game/home-objects?lang=fr" />
+  </url>
+
+  <!-- Geography Game -->
+  <url>
+    <loc>https://learning-app.vercel.app/game/geography</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://learning-app.vercel.app/game/geography?lang=en" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://learning-app.vercel.app/game/geography?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://learning-app.vercel.app/game/geography?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://learning-app.vercel.app/game/geography?lang=fr" />
+  </url>
+
+  <!-- Family Game -->
+  <url>
+    <loc>https://learning-app.vercel.app/game/family</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://learning-app.vercel.app/game/family?lang=en" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://learning-app.vercel.app/game/family?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://learning-app.vercel.app/game/family?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://learning-app.vercel.app/game/family?lang=fr" />
+  </url>
+
+  <!-- Word Bubbles Game -->
+  <url>
+    <loc>https://learning-app.vercel.app/game/bubbles</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://learning-app.vercel.app/game/bubbles?lang=en" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://learning-app.vercel.app/game/bubbles?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://learning-app.vercel.app/game/bubbles?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://learning-app.vercel.app/game/bubbles?lang=fr" />
+  </url>
+
+  <!-- Racing Game -->
+  <url>
+    <loc>https://learning-app.vercel.app/game/racing</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://learning-app.vercel.app/game/racing?lang=en" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://learning-app.vercel.app/game/racing?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://learning-app.vercel.app/game/racing?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://learning-app.vercel.app/game/racing?lang=fr" />
+  </url>
+
+  <!-- Category pages -->
+  <url>
+    <loc>https://learning-app.vercel.app/category/sounds</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://learning-app.vercel.app/category/sounds?lang=en" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://learning-app.vercel.app/category/sounds?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://learning-app.vercel.app/category/sounds?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://learning-app.vercel.app/category/sounds?lang=fr" />
+  </url>
+
+  <url>
+    <loc>https://learning-app.vercel.app/category/english</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://learning-app.vercel.app/category/english?lang=en" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://learning-app.vercel.app/category/english?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://learning-app.vercel.app/category/english?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://learning-app.vercel.app/category/english?lang=fr" />
+  </url>
+
+  <url>
+    <loc>https://learning-app.vercel.app/category/words</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://learning-app.vercel.app/category/words?lang=en" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://learning-app.vercel.app/category/words?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://learning-app.vercel.app/category/words?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://learning-app.vercel.app/category/words?lang=fr" />
+  </url>
+
+  <url>
+    <loc>https://learning-app.vercel.app/category/geography</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://learning-app.vercel.app/category/geography?lang=en" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://learning-app.vercel.app/category/geography?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://learning-app.vercel.app/category/geography?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://learning-app.vercel.app/category/geography?lang=fr" />
+  </url>
+
+  <url>
+    <loc>https://learning-app.vercel.app/category/family</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://learning-app.vercel.app/category/family?lang=en" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://learning-app.vercel.app/category/family?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://learning-app.vercel.app/category/family?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://learning-app.vercel.app/category/family?lang=fr" />
+  </url>
+
+  <url>
+    <loc>https://learning-app.vercel.app/category/interactive</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://learning-app.vercel.app/category/interactive?lang=en" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://learning-app.vercel.app/category/interactive?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://learning-app.vercel.app/category/interactive?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://learning-app.vercel.app/category/interactive?lang=fr" />
+  </url>
+
+</urlset>

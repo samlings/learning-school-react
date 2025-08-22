@@ -1,0 +1,164 @@
+.about-page {
+  min-height: 100vh;
+  padding: 2rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.about-container {
+  max-width: 800px;
+  width: 100%;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  animation: slideIn 0.5s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.about-header {
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  color: white;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.about-header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+.about-subtitle {
+  font-size: 1.2rem;
+  margin: 1rem 0 0 0;
+  opacity: 0.9;
+}
+
+.about-section {
+  padding: 2rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.about-section:last-of-type {
+  border-bottom: none;
+}
+
+.about-section h2 {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.about-section p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+}
+
+.features-list li {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 0.8rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.features-list li::before {
+  content: '✅';
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.contact-section {
+  background: #f8f9fa;
+}
+
+.contact-info {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid #e9ecef;
+}
+
+.contact-info p {
+  margin: 0.5rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.contact-icon {
+  font-size: 1.2rem;
+}
+
+.contact-info a {
+  color: #4facfe;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+.about-footer {
+  background: #f8f9fa;
+  padding: 1.5rem 2rem;
+  text-align: center;
+}
+
+.about-footer p {
+  margin: 0;
+  color: #666;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .about-page {
+    padding: 1rem;
+  }
+
+  .about-header {
+    padding: 2rem 1rem;
+  }
+
+  .about-header h1 {
+    font-size: 2rem;
+  }
+
+  .about-section {
+    padding: 1.5rem;
+  }
+
+  .contact-info {
+    padding: 1rem;
+  }
+
+  .contact-info p {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+}

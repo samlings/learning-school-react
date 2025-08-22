@@ -1,0 +1,267 @@
+.game-filter {
+  background: white;
+  border-radius: 20px;
+  padding: 1.8rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 6px 20px rgba(46, 139, 87, 0.15);
+  border: 3px solid #B8E6B8;
+  transition: all 0.2s ease;
+}
+
+.game-filter.collapsed {
+  padding-bottom: 1.5rem;
+}
+
+.filter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0;
+  flex-wrap: wrap;
+  gap: 1rem;
+  cursor: pointer;
+  transition: margin-bottom 0.3s ease;
+}
+
+.game-filter.expanded .filter-header {
+  margin-bottom: 1.5rem;
+}
+
+.filter-header-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.filter-header-right {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.filter-header h3 {
+  margin: 0;
+  font-family: 'Fredoka One', cursive;
+  color: #2E8B57;
+  font-size: 1.4rem;
+}
+
+.filter-results {
+  color: #666;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.clear-filters-btn {
+  background: #9CAF88;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.clear-filters-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(156, 175, 136, 0.4);
+  background: #839971;
+}
+
+.expand-toggle-btn {
+  background: white;
+  border: 2px solid #2E8B57;
+  color: #2E8B57;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1rem;
+  border-radius: 20px;
+  transition: all 0.2s ease;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.expand-toggle-btn:hover {
+  background: #2E8B57;
+  color: white;
+  transform: translateY(-1px);
+}
+
+.expand-icon {
+  font-size: 0.8rem;
+  transition: transform 0.3s ease;
+}
+
+.expand-text {
+  font-size: 0.85rem;
+}
+
+.filter-sections {
+  overflow: hidden;
+  transition: max-height 0.4s ease, opacity 0.3s ease;
+}
+
+.filter-sections.collapsed {
+  max-height: 0;
+  opacity: 0;
+}
+
+.filter-sections.expanded {
+  max-height: 1000px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-top: 1rem;
+}
+
+.filter-section h4 {
+  margin: 0 0 0.8rem 0;
+  color: #2c3e50;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.filter-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 0.5rem;
+}
+
+.filter-btn {
+  background: white;
+  border: 2px solid #B8E6B8;
+  color: #8B4513;
+  padding: 0.6rem 1.2rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.filter-btn:hover {
+  border-color: #2E8B57;
+  background: #B8E6B8;
+  transform: translateY(-1px);
+}
+
+.filter-btn.active {
+  background: #2E8B57;
+  border-color: #2E8B57;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(46, 139, 87, 0.4);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .game-filter {
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .filter-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .filter-header-left {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .filter-header-right {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .filter-header h3 {
+    font-size: 1.2rem;
+  }
+
+  .filter-results {
+    font-size: 0.8rem;
+  }
+
+  .clear-filters-btn {
+    font-size: 0.75rem;
+    padding: 0.4rem 0.8rem;
+  }
+
+  .expand-toggle-btn {
+    font-size: 0.8rem;
+    padding: 0.4rem;
+  }
+
+  .expand-text {
+    font-size: 0.75rem;
+  }
+
+  .filter-sections.expanded {
+    gap: 1rem;
+  }
+
+  .filter-section h4 {
+    font-size: 1rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .filter-btn {
+    font-size: 0.8rem;
+    padding: 0.4rem 0.8rem;
+  }
+
+  .features-grid {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 0.4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .game-filter {
+    padding: 0.8rem;
+  }
+
+  .filter-header h3 {
+    font-size: 1.1rem;
+  }
+
+  .filter-btn {
+    font-size: 0.75rem;
+    padding: 0.35rem 0.7rem;
+  }
+
+  .features-grid {
+    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+  }
+}
+
+/* Large screens - horizontal layout for filter sections */
+@media (min-width: 1200px) {
+  .filter-sections {
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .filter-section {
+    flex: 1;
+  }
+
+  .features-grid {
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  }
+}

@@ -1,0 +1,37 @@
+User-agent: *
+Allow: /
+
+# Allow all search engines to crawl the site
+Disallow: 
+
+# Sitemap location
+Sitemap: https://learning-app.vercel.app/sitemap.xml
+
+# Specific instructions for major crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# Block common non-search engine bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: PaperLiBot
+Disallow: /
+
+# Crawl delay for respectful crawling
+Crawl-delay: 1

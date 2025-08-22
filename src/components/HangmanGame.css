@@ -1,0 +1,303 @@
+.hangman-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.game-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.game-header h2 {
+  color: #2c3e50;
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.game-stats {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.wrong-count {
+  background: linear-gradient(45deg, #e74c3c, #c0392b);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+}
+
+.game-content {
+  display: grid;
+  gap: 2rem;
+}
+
+.hangman-section {
+  display: flex;
+  justify-content: center;
+  background: #f8f9fa;
+  border-radius: 15px;
+  padding: 2rem;
+}
+
+.hangman-post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hangman-drawing {
+  font-family: 'Courier New', monospace;
+  font-size: 1.2rem;
+  color: #2c3e50;
+  line-height: 1.2;
+  white-space: pre;
+  text-align: left;
+}
+
+.word-section {
+  text-align: center;
+  background: linear-gradient(135deg, #74b9ff, #0984e3);
+  color: white;
+  padding: 2rem;
+  border-radius: 15px;
+}
+
+.hint {
+  margin-bottom: 2rem;
+}
+
+.hint-label {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.hint-text {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.word-display {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.word-letters {
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 0.5rem;
+  font-family: 'Courier New', monospace;
+}
+
+.alphabet-section {
+  text-align: center;
+}
+
+.alphabet-section h3 {
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  font-size: 1.4rem;
+}
+
+.alphabet-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  gap: 0.5rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.letter-btn {
+  background: white;
+  border: 2px solid #ddd;
+  color: #2c3e50;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.letter-btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-color: #3498db;
+}
+
+.letter-btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.letter-btn.correct {
+  background: #d5f4e6;
+  border-color: #27ae60;
+  color: #27ae60;
+}
+
+.letter-btn.incorrect {
+  background: #fadbd8;
+  border-color: #e74c3c;
+  color: #e74c3c;
+}
+
+.new-word-btn {
+  background: linear-gradient(45deg, #ff6b6b, #feca57);
+  border: none;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 25px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  margin: 2rem auto 0;
+  display: block;
+}
+
+.new-word-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.game-complete {
+  text-align: center;
+  padding: 3rem;
+}
+
+.game-complete h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.win h2 {
+  color: #27ae60;
+}
+
+.lose h2 {
+  color: #e74c3c;
+}
+
+.win-message, .lose-message {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.win-message {
+  color: #27ae60;
+}
+
+.lose-message {
+  color: #e74c3c;
+}
+
+.final-word {
+  margin: 2rem 0;
+  padding: 2rem;
+  background: #f8f9fa;
+  border-radius: 15px;
+  border: 3px solid #ddd;
+}
+
+.word-reveal {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.hint-reveal {
+  font-size: 1.2rem;
+  color: #666;
+  font-style: italic;
+}
+
+.celebration, .encouragement {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  border-radius: 15px;
+}
+
+.celebration {
+  background: #d5f4e6;
+  color: #27ae60;
+  border: 2px solid #27ae60;
+}
+
+.encouragement {
+  background: #d1ecf1;
+  color: #0c5460;
+  border: 2px solid #17a2b8;
+}
+
+.celebration p, .encouragement p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.hangman-final {
+  margin: 2rem 0;
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 15px;
+  border: 2px solid #e74c3c;
+}
+
+.play-again-btn {
+  background: linear-gradient(45deg, #ff6b6b, #feca57);
+  border: none;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 25px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.play-again-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+  .hangman-container {
+    padding: 1rem;
+  }
+  
+  .alphabet-grid {
+    grid-template-columns: repeat(6, 1fr);
+    gap: 0.3rem;
+  }
+  
+  .letter-btn {
+    padding: 0.8rem 0.2rem;
+    font-size: 1rem;
+  }
+  
+  .word-letters {
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+  }
+  
+  .hangman-drawing {
+    font-size: 1rem;
+  }
+  
+  .word-reveal {
+    font-size: 2rem;
+  }
+}
