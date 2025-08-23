@@ -4,201 +4,270 @@
   
   <!-- Main page -->
   <url>
-    <loc>https://learning-app.vercel.app/</loc>
-    <lastmod>2025-01-20</lastmod>
+    <loc>https://joga-aprende.vercel.app/</loc>
+    <lastmod>2025-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://learning-app.vercel.app/?lang=en" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://learning-app.vercel.app/?lang=pt" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://learning-app.vercel.app/?lang=es" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://learning-app.vercel.app/?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://joga-aprende.vercel.app/?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://joga-aprende.vercel.app/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://joga-aprende.vercel.app/?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://joga-aprende.vercel.app/?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://joga-aprende.vercel.app/?lang=it" />
   </url>
 
   <!-- F/V Sounds Game -->
   <url>
-    <loc>https://learning-app.vercel.app/game/fv-sounds</loc>
-    <lastmod>2025-01-20</lastmod>
+    <loc>https://joga-aprende.vercel.app/game/fv-sounds</loc>
+    <lastmod>2025-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://learning-app.vercel.app/game/fv-sounds?lang=en" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://learning-app.vercel.app/game/fv-sounds?lang=pt" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://learning-app.vercel.app/game/fv-sounds?lang=es" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://learning-app.vercel.app/game/fv-sounds?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://joga-aprende.vercel.app/game/fv-sounds?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://joga-aprende.vercel.app/game/fv-sounds?lang=en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://joga-aprende.vercel.app/game/fv-sounds?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://joga-aprende.vercel.app/game/fv-sounds?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://joga-aprende.vercel.app/game/fv-sounds?lang=it" />
   </url>
 
   <!-- CH/J Sounds Game -->
   <url>
-    <loc>https://learning-app.vercel.app/game/chj-sounds</loc>
-    <lastmod>2025-01-20</lastmod>
+    <loc>https://joga-aprende.vercel.app/game/chj-sounds</loc>
+    <lastmod>2025-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://learning-app.vercel.app/game/chj-sounds?lang=en" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://learning-app.vercel.app/game/chj-sounds?lang=pt" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://learning-app.vercel.app/game/chj-sounds?lang=es" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://learning-app.vercel.app/game/chj-sounds?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://joga-aprende.vercel.app/game/chj-sounds?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://joga-aprende.vercel.app/game/chj-sounds?lang=en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://joga-aprende.vercel.app/game/chj-sounds?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://joga-aprende.vercel.app/game/chj-sounds?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://joga-aprende.vercel.app/game/chj-sounds?lang=it" />
   </url>
 
   <!-- Hangman Game -->
   <url>
-    <loc>https://learning-app.vercel.app/game/hangman</loc>
-    <lastmod>2025-01-20</lastmod>
+    <loc>https://joga-aprende.vercel.app/game/hangman</loc>
+    <lastmod>2025-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://learning-app.vercel.app/game/hangman?lang=en" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://learning-app.vercel.app/game/hangman?lang=pt" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://learning-app.vercel.app/game/hangman?lang=es" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://learning-app.vercel.app/game/hangman?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://joga-aprende.vercel.app/game/hangman?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://joga-aprende.vercel.app/game/hangman?lang=en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://joga-aprende.vercel.app/game/hangman?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://joga-aprende.vercel.app/game/hangman?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://joga-aprende.vercel.app/game/hangman?lang=it" />
   </url>
 
   <!-- Colors Game -->
   <url>
-    <loc>https://learning-app.vercel.app/game/colors</loc>
-    <lastmod>2025-01-20</lastmod>
+    <loc>https://joga-aprende.vercel.app/game/colors</loc>
+    <lastmod>2025-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://learning-app.vercel.app/game/colors?lang=en" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://learning-app.vercel.app/game/colors?lang=pt" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://learning-app.vercel.app/game/colors?lang=es" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://learning-app.vercel.app/game/colors?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://joga-aprende.vercel.app/game/colors?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://joga-aprende.vercel.app/game/colors?lang=en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://joga-aprende.vercel.app/game/colors?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://joga-aprende.vercel.app/game/colors?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://joga-aprende.vercel.app/game/colors?lang=it" />
   </url>
 
   <!-- Numbers Game -->
   <url>
-    <loc>https://learning-app.vercel.app/game/numbers</loc>
-    <lastmod>2025-01-20</lastmod>
+    <loc>https://joga-aprende.vercel.app/game/numbers</loc>
+    <lastmod>2025-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://learning-app.vercel.app/game/numbers?lang=en" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://learning-app.vercel.app/game/numbers?lang=pt" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://learning-app.vercel.app/game/numbers?lang=es" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://learning-app.vercel.app/game/numbers?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://joga-aprende.vercel.app/game/numbers?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://joga-aprende.vercel.app/game/numbers?lang=en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://joga-aprende.vercel.app/game/numbers?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://joga-aprende.vercel.app/game/numbers?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://joga-aprende.vercel.app/game/numbers?lang=it" />
   </url>
 
   <!-- Home Objects Game -->
   <url>
-    <loc>https://learning-app.vercel.app/game/home-objects</loc>
-    <lastmod>2025-01-20</lastmod>
+    <loc>https://joga-aprende.vercel.app/game/home-objects</loc>
+    <lastmod>2025-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://learning-app.vercel.app/game/home-objects?lang=en" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://learning-app.vercel.app/game/home-objects?lang=pt" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://learning-app.vercel.app/game/home-objects?lang=es" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://learning-app.vercel.app/game/home-objects?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://joga-aprende.vercel.app/game/home-objects?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://joga-aprende.vercel.app/game/home-objects?lang=en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://joga-aprende.vercel.app/game/home-objects?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://joga-aprende.vercel.app/game/home-objects?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://joga-aprende.vercel.app/game/home-objects?lang=it" />
   </url>
 
   <!-- Geography Game -->
   <url>
-    <loc>https://learning-app.vercel.app/game/geography</loc>
-    <lastmod>2025-01-20</lastmod>
+    <loc>https://joga-aprende.vercel.app/game/geography</loc>
+    <lastmod>2025-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://learning-app.vercel.app/game/geography?lang=en" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://learning-app.vercel.app/game/geography?lang=pt" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://learning-app.vercel.app/game/geography?lang=es" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://learning-app.vercel.app/game/geography?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://joga-aprende.vercel.app/game/geography?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://joga-aprende.vercel.app/game/geography?lang=en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://joga-aprende.vercel.app/game/geography?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://joga-aprende.vercel.app/game/geography?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://joga-aprende.vercel.app/game/geography?lang=it" />
   </url>
 
   <!-- Family Game -->
   <url>
-    <loc>https://learning-app.vercel.app/game/family</loc>
-    <lastmod>2025-01-20</lastmod>
+    <loc>https://joga-aprende.vercel.app/game/family</loc>
+    <lastmod>2025-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://learning-app.vercel.app/game/family?lang=en" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://learning-app.vercel.app/game/family?lang=pt" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://learning-app.vercel.app/game/family?lang=es" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://learning-app.vercel.app/game/family?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://joga-aprende.vercel.app/game/family?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://joga-aprende.vercel.app/game/family?lang=en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://joga-aprende.vercel.app/game/family?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://joga-aprende.vercel.app/game/family?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://joga-aprende.vercel.app/game/family?lang=it" />
   </url>
 
   <!-- Word Bubbles Game -->
   <url>
-    <loc>https://learning-app.vercel.app/game/bubbles</loc>
-    <lastmod>2025-01-20</lastmod>
+    <loc>https://joga-aprende.vercel.app/game/bubbles</loc>
+    <lastmod>2025-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://learning-app.vercel.app/game/bubbles?lang=en" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://learning-app.vercel.app/game/bubbles?lang=pt" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://learning-app.vercel.app/game/bubbles?lang=es" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://learning-app.vercel.app/game/bubbles?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://joga-aprende.vercel.app/game/bubbles?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://joga-aprende.vercel.app/game/bubbles?lang=en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://joga-aprende.vercel.app/game/bubbles?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://joga-aprende.vercel.app/game/bubbles?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://joga-aprende.vercel.app/game/bubbles?lang=it" />
   </url>
 
   <!-- Racing Game -->
   <url>
-    <loc>https://learning-app.vercel.app/game/racing</loc>
-    <lastmod>2025-01-20</lastmod>
+    <loc>https://joga-aprende.vercel.app/game/racing</loc>
+    <lastmod>2025-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://learning-app.vercel.app/game/racing?lang=en" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://learning-app.vercel.app/game/racing?lang=pt" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://learning-app.vercel.app/game/racing?lang=es" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://learning-app.vercel.app/game/racing?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://joga-aprende.vercel.app/game/racing?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://joga-aprende.vercel.app/game/racing?lang=en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://joga-aprende.vercel.app/game/racing?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://joga-aprende.vercel.app/game/racing?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://joga-aprende.vercel.app/game/racing?lang=it" />
+  </url>
+
+  <!-- Number Bubbles Game -->
+  <url>
+    <loc>https://joga-aprende.vercel.app/game/number-bubbles</loc>
+    <lastmod>2025-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://joga-aprende.vercel.app/game/number-bubbles?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://joga-aprende.vercel.app/game/number-bubbles?lang=en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://joga-aprende.vercel.app/game/number-bubbles?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://joga-aprende.vercel.app/game/number-bubbles?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://joga-aprende.vercel.app/game/number-bubbles?lang=it" />
+  </url>
+
+  <!-- Rocket Math Game -->
+  <url>
+    <loc>https://joga-aprende.vercel.app/game/rocket-math</loc>
+    <lastmod>2025-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://joga-aprende.vercel.app/game/rocket-math?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://joga-aprende.vercel.app/game/rocket-math?lang=en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://joga-aprende.vercel.app/game/rocket-math?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://joga-aprende.vercel.app/game/rocket-math?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://joga-aprende.vercel.app/game/rocket-math?lang=it" />
+  </url>
+
+  <!-- Multiplication Ninja Game -->
+  <url>
+    <loc>https://joga-aprende.vercel.app/game/mult-ninja</loc>
+    <lastmod>2025-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://joga-aprende.vercel.app/game/mult-ninja?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://joga-aprende.vercel.app/game/mult-ninja?lang=en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://joga-aprende.vercel.app/game/mult-ninja?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://joga-aprende.vercel.app/game/mult-ninja?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://joga-aprende.vercel.app/game/mult-ninja?lang=it" />
+  </url>
+
+  <!-- Fish Math Game -->
+  <url>
+    <loc>https://joga-aprende.vercel.app/game/fish-math</loc>
+    <lastmod>2025-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://joga-aprende.vercel.app/game/fish-math?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://joga-aprende.vercel.app/game/fish-math?lang=en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://joga-aprende.vercel.app/game/fish-math?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://joga-aprende.vercel.app/game/fish-math?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://joga-aprende.vercel.app/game/fish-math?lang=it" />
   </url>
 
   <!-- Category pages -->
   <url>
-    <loc>https://learning-app.vercel.app/category/sounds</loc>
-    <lastmod>2025-01-20</lastmod>
+    <loc>https://joga-aprende.vercel.app/category/sounds</loc>
+    <lastmod>2025-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://learning-app.vercel.app/category/sounds?lang=en" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://learning-app.vercel.app/category/sounds?lang=pt" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://learning-app.vercel.app/category/sounds?lang=es" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://learning-app.vercel.app/category/sounds?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://joga-aprende.vercel.app/category/sounds?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://joga-aprende.vercel.app/category/sounds?lang=en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://joga-aprende.vercel.app/category/sounds?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://joga-aprende.vercel.app/category/sounds?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://joga-aprende.vercel.app/category/sounds?lang=it" />
   </url>
 
   <url>
-    <loc>https://learning-app.vercel.app/category/english</loc>
-    <lastmod>2025-01-20</lastmod>
+    <loc>https://joga-aprende.vercel.app/category/english</loc>
+    <lastmod>2025-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://learning-app.vercel.app/category/english?lang=en" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://learning-app.vercel.app/category/english?lang=pt" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://learning-app.vercel.app/category/english?lang=es" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://learning-app.vercel.app/category/english?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://joga-aprende.vercel.app/category/english?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://joga-aprende.vercel.app/category/english?lang=en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://joga-aprende.vercel.app/category/english?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://joga-aprende.vercel.app/category/english?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://joga-aprende.vercel.app/category/english?lang=it" />
   </url>
 
   <url>
-    <loc>https://learning-app.vercel.app/category/words</loc>
-    <lastmod>2025-01-20</lastmod>
+    <loc>https://joga-aprende.vercel.app/category/words</loc>
+    <lastmod>2025-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://learning-app.vercel.app/category/words?lang=en" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://learning-app.vercel.app/category/words?lang=pt" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://learning-app.vercel.app/category/words?lang=es" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://learning-app.vercel.app/category/words?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://joga-aprende.vercel.app/category/words?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://joga-aprende.vercel.app/category/words?lang=en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://joga-aprende.vercel.app/category/words?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://joga-aprende.vercel.app/category/words?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://joga-aprende.vercel.app/category/words?lang=it" />
   </url>
 
   <url>
-    <loc>https://learning-app.vercel.app/category/geography</loc>
-    <lastmod>2025-01-20</lastmod>
+    <loc>https://joga-aprende.vercel.app/category/geography</loc>
+    <lastmod>2025-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://learning-app.vercel.app/category/geography?lang=en" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://learning-app.vercel.app/category/geography?lang=pt" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://learning-app.vercel.app/category/geography?lang=es" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://learning-app.vercel.app/category/geography?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://joga-aprende.vercel.app/category/geography?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://joga-aprende.vercel.app/category/geography?lang=en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://joga-aprende.vercel.app/category/geography?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://joga-aprende.vercel.app/category/geography?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://joga-aprende.vercel.app/category/geography?lang=it" />
   </url>
 
   <url>
-    <loc>https://learning-app.vercel.app/category/family</loc>
-    <lastmod>2025-01-20</lastmod>
+    <loc>https://joga-aprende.vercel.app/category/family</loc>
+    <lastmod>2025-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://learning-app.vercel.app/category/family?lang=en" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://learning-app.vercel.app/category/family?lang=pt" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://learning-app.vercel.app/category/family?lang=es" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://learning-app.vercel.app/category/family?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://joga-aprende.vercel.app/category/family?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://joga-aprende.vercel.app/category/family?lang=en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://joga-aprende.vercel.app/category/family?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://joga-aprende.vercel.app/category/family?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://joga-aprende.vercel.app/category/family?lang=it" />
   </url>
 
   <url>
-    <loc>https://learning-app.vercel.app/category/interactive</loc>
-    <lastmod>2025-01-20</lastmod>
+    <loc>https://joga-aprende.vercel.app/category/interactive</loc>
+    <lastmod>2025-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://learning-app.vercel.app/category/interactive?lang=en" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://learning-app.vercel.app/category/interactive?lang=pt" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://learning-app.vercel.app/category/interactive?lang=es" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://learning-app.vercel.app/category/interactive?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://joga-aprende.vercel.app/category/interactive?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://joga-aprende.vercel.app/category/interactive?lang=en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://joga-aprende.vercel.app/category/interactive?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://joga-aprende.vercel.app/category/interactive?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://joga-aprende.vercel.app/category/interactive?lang=it" />
   </url>
 
 </urlset>

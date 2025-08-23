@@ -5,7 +5,7 @@ Allow: /
 Disallow: 
 
 # Sitemap location
-Sitemap: https://learning-app.vercel.app/sitemap.xml
+Sitemap: https://joga-aprende.vercel.app/sitemap.xml
 
 # Specific instructions for major crawlers
 User-agent: Googlebot
