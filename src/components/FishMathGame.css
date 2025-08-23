@@ -1,0 +1,603 @@
+.fish-math-game {
+  min-height: 100vh;
+  position: relative;
+  background: linear-gradient(
+    to bottom,
+    #87CEEB 0%,
+    #4682B4 30%,
+    #1E6091 60%,
+    #0B4F6C 100%
+  );
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.underwater-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.1) 2px, transparent 2px),
+    radial-gradient(circle at 60% 40%, rgba(255, 255, 255, 0.08) 1px, transparent 1px),
+    radial-gradient(circle at 80% 60%, rgba(255, 255, 255, 0.12) 3px, transparent 3px),
+    radial-gradient(circle at 40% 80%, rgba(255, 255, 255, 0.06) 2px, transparent 2px);
+  animation: bubbles 8s infinite linear;
+  z-index: 1;
+}
+
+@keyframes bubbles {
+  0% { transform: translateY(0) rotate(0deg); }
+  100% { transform: translateY(-100vh) rotate(360deg); }
+}
+
+.game-start, .level-completed, .game-finished {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px;
+  background: rgba(0, 40, 80, 0.9);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(135, 206, 235, 0.3);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  margin-top: 10vh;
+}
+
+.level-info {
+  margin: 30px 0;
+  padding: 20px;
+  background: rgba(70, 130, 180, 0.2);
+  border-radius: 15px;
+  border: 1px solid rgba(135, 206, 235, 0.3);
+}
+
+.level-info h3 {
+  color: #87CEEB;
+  margin-bottom: 15px;
+  font-size: 1.3em;
+}
+
+.level-info p {
+  margin: 10px 0;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.start-btn, .next-level-btn, .retry-btn, .restart-btn {
+  background: linear-gradient(135deg, #20B2AA, #008B8B);
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.1em;
+  border-radius: 25px;
+  cursor: pointer;
+  margin: 10px;
+  font-weight: bold;
+  box-shadow: 0 5px 15px rgba(32, 178, 170, 0.3);
+  transition: all 0.3s ease;
+}
+
+.start-btn:hover, .next-level-btn:hover, .retry-btn:hover, .restart-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(32, 178, 170, 0.4);
+}
+
+.game-header {
+  position: relative;
+  z-index: 10;
+  margin-bottom: 20px;
+}
+
+.game-stats {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  background: rgba(0, 40, 80, 0.8);
+  padding: 15px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(135, 206, 235, 0.3);
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.stat-label {
+  font-size: 0.9em;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 5px;
+}
+
+.stat-value {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #87CEEB;
+}
+
+.aquarium-container {
+  position: relative;
+  height: 300px;
+  background: linear-gradient(
+    to bottom,
+    rgba(70, 130, 180, 0.3) 0%,
+    rgba(30, 96, 145, 0.5) 50%,
+    rgba(11, 79, 108, 0.7) 100%
+  );
+  border-radius: 20px;
+  margin: 20px 0;
+  overflow: hidden;
+  border: 3px solid rgba(135, 206, 235, 0.4);
+  z-index: 5;
+}
+
+.fish-character {
+  position: absolute;
+  left: 15%;
+  bottom: 20%;
+  font-size: 3em;
+  animation: fishSwim 3s infinite ease-in-out;
+  z-index: 8;
+}
+
+.fish-character[data-emotion="happy"] .fish-sprite {
+  animation: fishSwim 3s infinite ease-in-out, fishHappy 0.5s ease-out;
+}
+
+.fish-character[data-emotion="sad"] .fish-sprite {
+  animation: fishSwim 3s infinite ease-in-out, fishSad 0.5s ease-out;
+}
+
+@keyframes fishSwim {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-10px) rotate(-2deg); }
+}
+
+@keyframes fishHappy {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2) rotate(5deg); }
+  100% { transform: scale(1); }
+}
+
+@keyframes fishSad {
+  0% { transform: scale(1); }
+  25% { transform: scale(0.9) rotate(-5deg); }
+  75% { transform: scale(0.9) rotate(5deg); }
+  100% { transform: scale(1); }
+}
+
+.crocodile-character {
+  position: absolute;
+  right: 15%;
+  bottom: 15%;
+  font-size: 3em;
+  animation: crocodileFloat 4s infinite ease-in-out;
+  z-index: 8;
+}
+
+.crocodile-character[data-emotion="happy"] .crocodile-sprite {
+  animation: crocodileFloat 4s infinite ease-in-out, crocodileSnap 0.6s ease-out;
+}
+
+@keyframes crocodileFloat {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-8px) rotate(1deg); }
+}
+
+@keyframes crocodileSnap {
+  0% { transform: scale(1); }
+  30% { transform: scale(1.1) rotate(-3deg); }
+  60% { transform: scale(1.1) rotate(3deg); }
+  100% { transform: scale(1); }
+}
+
+/* Movement animations for characters going to food */
+.fish-character.moving-to-food {
+  animation: fishMoveToFood 0.8s ease-in-out forwards, fishSwimFast 0.15s infinite ease-in-out;
+}
+
+.crocodile-character.moving-to-food {
+  animation: crocodileMoveToFood 0.8s ease-in-out forwards, crocodileSwimFast 0.15s infinite ease-in-out;
+}
+
+@keyframes fishMoveToFood {
+  0% { 
+    left: 15%; 
+  }
+  100% { 
+    left: var(--target-x, 15%); 
+  }
+}
+
+@keyframes crocodileMoveToFood {
+  0% { 
+    right: 15%; 
+  }
+  100% { 
+    right: var(--target-x, 15%); 
+  }
+}
+
+@keyframes fishSwimFast {
+  0%, 100% { transform: translateY(0) rotate(-1deg) scaleX(1); }
+  50% { transform: translateY(-3px) rotate(1deg) scaleX(1.05); }
+}
+
+@keyframes crocodileSwimFast {
+  0%, 100% { transform: translateY(0) rotate(0deg) scaleX(1); }
+  50% { transform: translateY(-3px) rotate(1deg) scaleX(1.05); }
+}
+
+.fish-emotion, .crocodile-emotion {
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.6em;
+  animation: emotionPop 1.5s ease-out;
+  z-index: 9;
+}
+
+@keyframes emotionPop {
+  0% { 
+    opacity: 0;
+    transform: translateX(-50%) translateY(10px) scale(0.5);
+  }
+  20% { 
+    opacity: 1;
+    transform: translateX(-50%) translateY(-5px) scale(1.2);
+  }
+  100% { 
+    opacity: 0;
+    transform: translateX(-50%) translateY(-20px) scale(0.8);
+  }
+}
+
+.falling-food {
+  position: absolute;
+  font-size: 2em;
+  z-index: 7;
+  animation: foodFall 0.1s linear infinite;
+  transition: opacity 0.3s ease;
+}
+
+.falling-food.eaten {
+  animation: foodEaten 0.5s ease-out forwards;
+}
+
+@keyframes foodFall {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(5deg); }
+}
+
+@keyframes foodEaten {
+  0% { 
+    transform: scale(1) rotate(0deg);
+    opacity: 1;
+  }
+  50% { 
+    transform: scale(1.3) rotate(180deg);
+    opacity: 0.7;
+  }
+  100% { 
+    transform: scale(0) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+.food-counters {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  display: flex;
+  gap: 20px;
+  z-index: 10;
+}
+
+.fish-food-counter, .crocodile-food-counter {
+  background: rgba(0, 40, 80, 0.8);
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(135, 206, 235, 0.3);
+  backdrop-filter: blur(5px);
+}
+
+.counter-label {
+  font-size: 0.9em;
+  margin-right: 8px;
+}
+
+.counter-value {
+  font-weight: bold;
+  color: #87CEEB;
+}
+
+.question-container {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  background: rgba(0, 40, 80, 0.9);
+  border-radius: 20px;
+  padding: 30px;
+  margin-top: 20px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(135, 206, 235, 0.3);
+}
+
+.question h3 {
+  font-size: 2em;
+  margin-bottom: 25px;
+  color: #87CEEB;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.answer-options {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.answer-btn {
+  background: linear-gradient(135deg, #4682B4, #1E6091);
+  border: 2px solid rgba(135, 206, 235, 0.3);
+  color: white;
+  padding: 15px;
+  font-size: 1.2em;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.answer-btn:hover:not(:disabled) {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(70, 130, 180, 0.4);
+  border-color: #87CEEB;
+}
+
+.answer-btn.correct {
+  background: linear-gradient(135deg, #32CD32, #228B22);
+  border-color: #90EE90;
+  box-shadow: 0 5px 15px rgba(50, 205, 50, 0.4);
+}
+
+.answer-btn.incorrect {
+  background: linear-gradient(135deg, #DC143C, #8B0000);
+  border-color: #FFB6C1;
+  box-shadow: 0 5px 15px rgba(220, 20, 60, 0.4);
+}
+
+.answer-btn:disabled {
+  cursor: not-allowed;
+}
+
+.result-message {
+  font-size: 1.3em;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 15px;
+  animation: messageShow 0.5s ease-out;
+}
+
+.result-message.correct {
+  background: rgba(50, 205, 50, 0.2);
+  color: #90EE90;
+  border: 2px solid rgba(50, 205, 50, 0.3);
+}
+
+.result-message.incorrect {
+  background: rgba(220, 20, 60, 0.2);
+  color: #FFB6C1;
+  border: 2px solid rgba(220, 20, 60, 0.3);
+}
+
+@keyframes messageShow {
+  0% {
+    opacity: 0;
+    transform: translateY(10px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.level-stats {
+  margin: 30px 0;
+  padding: 20px;
+  background: rgba(70, 130, 180, 0.2);
+  border-radius: 15px;
+  border: 1px solid rgba(135, 206, 235, 0.3);
+}
+
+.level-stats p {
+  margin: 12px 0;
+  font-size: 1.1em;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.stars {
+  font-size: 2em;
+  margin: 20px 0;
+  animation: starsGlow 2s infinite alternate;
+}
+
+@keyframes starsGlow {
+  0% { text-shadow: 0 0 5px #FFD700; }
+  100% { text-shadow: 0 0 20px #FFD700, 0 0 30px #FFD700; }
+}
+
+.level-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.final-stats {
+  margin: 30px 0;
+  padding: 20px;
+  background: rgba(70, 130, 180, 0.2);
+  border-radius: 15px;
+  border: 1px solid rgba(135, 206, 235, 0.3);
+}
+
+.final-stats p {
+  margin: 12px 0;
+  font-size: 1.2em;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+  .fish-math-game {
+    padding: 10px;
+  }
+
+  .game-stats {
+    gap: 15px;
+    padding: 10px;
+  }
+
+  .stat-value {
+    font-size: 1em;
+  }
+
+  .aquarium-container {
+    height: 250px;
+    margin: 15px 0;
+  }
+
+  .fish-character, .crocodile-character {
+    font-size: 2.5em;
+  }
+
+  .falling-food {
+    font-size: 1.5em;
+  }
+
+  .question h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+
+  .answer-options {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .answer-btn {
+    padding: 12px;
+    font-size: 1em;
+  }
+
+  .question-container {
+    padding: 20px;
+    margin-top: 15px;
+  }
+
+  .game-start, .level-completed, .game-finished {
+    padding: 20px;
+    margin-top: 5vh;
+  }
+
+  .level-info {
+    margin: 20px 0;
+    padding: 15px;
+  }
+
+  .food-counters {
+    gap: 15px;
+    top: 10px;
+    left: 10px;
+  }
+
+  .fish-food-counter, .crocodile-food-counter {
+    padding: 6px 10px;
+  }
+
+  .counter-label {
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 480px) {
+  .game-stats {
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stat {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .aquarium-container {
+    height: 200px;
+  }
+
+  .fish-character, .crocodile-character {
+    font-size: 2em;
+  }
+
+  .answer-options {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .question h3 {
+    font-size: 1.3em;
+  }
+
+  .food-counters {
+    position: relative;
+    top: auto;
+    left: auto;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+}
+
+/* Accessibility improvements */
+@media (prefers-reduced-motion: reduce) {
+  .fish-character,
+  .crocodile-character,
+  .underwater-background,
+  .falling-food {
+    animation: none;
+  }
+  
+  .answer-btn:hover:not(:disabled) {
+    transform: none;
+  }
+}
+
+/* High contrast mode */
+@media (prefers-contrast: high) {
+  .fish-math-game {
+    background: #000051;
+  }
+  
+  .answer-btn {
+    border-width: 3px;
+  }
+  
+  .question-container {
+    border-width: 3px;
+  }
+}

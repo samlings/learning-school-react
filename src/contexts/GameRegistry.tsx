@@ -2,7 +2,7 @@ import React, { createContext, useContext } from 'react'
 import type { ReactNode } from 'react'
 
 // Game registry types
-export type GameId = 'fv-sounds' | 'chj-sounds' | 'hangman' | 'colors' | 'numbers' | 'home-objects' | 'geography' | 'family' | 'bubbles' | 'racing' | 'number-bubbles' | 'rocket-math' | 'mult-ninja'
+export type GameId = 'fv-sounds' | 'chj-sounds' | 'hangman' | 'colors' | 'numbers' | 'home-objects' | 'geography' | 'family' | 'bubbles' | 'racing' | 'number-bubbles' | 'rocket-math' | 'mult-ninja' | 'fish-math'
 
 export interface GameFeature {
   key: string
@@ -189,6 +189,19 @@ const gameRegistry: Record<GameId, GameMetadata> = {
       { key: 'speed', icon: '⚡', translationKey: 'feature.speed' }
     ],
     chunkSize: 45
+  },
+  'fish-math': {
+    id: 'fish-math',
+    titleKey: 'game.fish.math.title',
+    descriptionKey: 'game.fish.math.description',
+    category: 'interactive',
+    difficulty: 'medium',
+    features: [
+      { key: 'numbers', icon: '🔢', translationKey: 'feature.numbers' },
+      { key: 'interactive', icon: '🎮', translationKey: 'feature.interactive' },
+      { key: 'medium', icon: '⭐⭐', translationKey: 'feature.medium' }
+    ],
+    chunkSize: 40
   }
 }
 

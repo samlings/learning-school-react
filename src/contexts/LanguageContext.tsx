@@ -71,6 +71,8 @@ const translations = {
     'game.rocket.math.description': 'Lança o teu foguetão para o espaço resolvendo problemas de multiplicação',
     'game.mult.ninja.title': 'Ninja da Multiplicação',
     'game.mult.ninja.description': 'Derrota os inimigos resolvendo rapidamente multiplicações como um verdadeiro ninja',
+    'game.fish.math.title': 'Tabuada do Peixe',
+    'game.fish.math.description': 'Ajuda o peixinho a conseguir comida resolvendo multiplicações antes do crocodilo',
     
     // Game Features
     'feature.audio': '🔊 Audio',
@@ -178,6 +180,7 @@ const translations = {
     'button.retry.level': 'Repetir Nível',
     'button.play.again': 'Jogar Novamente',
     'button.begin.training': '⚔️ Iniciar Treino',
+    'button.start.fishing': '🐟 Começar a Pescar',
     
     // Scores and feedback
     'score.final.fv': 'Acertaste {score} de {total} palavras!',
@@ -270,6 +273,8 @@ const translations = {
     'game.rocket.math.description': 'Lanza tu cohete al espacio resolviendo problemas de multiplicación',
     'game.mult.ninja.title': 'Ninja de la Multiplicación',
     'game.mult.ninja.description': 'Derrota a los enemigos resolviendo rápidamente multiplicaciones como un verdadero ninja',
+    'game.fish.math.title': 'Tabla del Pez',
+    'game.fish.math.description': 'Ayuda al pececito a conseguir comida resolviendo multiplicaciones antes que el cocodrilo',
     
     // Game Features
     'feature.audio': '🔊 Audio',
@@ -377,6 +382,7 @@ const translations = {
     'button.retry.level': 'Repetir Nivel',
     'button.play.again': 'Jugar de Nuevo',
     'button.begin.training': '⚔️ Comenzar Entrenamiento',
+    'button.start.fishing': '🐟 Empezar a Pescar',
     
     // Scores and feedback
     'score.final.fv': '¡Acertaste {score} de {total} palabras!',
@@ -469,6 +475,8 @@ const translations = {
     'game.rocket.math.description': 'Lance ta fusée dans l\'espace en résolvant des problèmes de multiplication',
     'game.mult.ninja.title': 'Ninja de la Multiplication',
     'game.mult.ninja.description': 'Défais les ennemis en résolvant rapidement les multiplications comme un vrai ninja',
+    'game.fish.math.title': 'Table du Poisson',
+    'game.fish.math.description': 'Aide le petit poisson à obtenir de la nourriture en résolvant des multiplications avant le crocodile',
     
     // Game Features
     'feature.audio': '🔊 Audio',
@@ -576,6 +584,7 @@ const translations = {
     'button.retry.level': 'Recommencer le Niveau',
     'button.play.again': 'Rejouer',
     'button.begin.training': '⚔️ Commencer l\'Entraînement',
+    'button.start.fishing': '🐟 Commencer à Pêcher',
     
     // Scores and feedback
     'score.final.fv': 'Tu as eu {score} sur {total} mots !',
@@ -668,6 +677,8 @@ const translations = {
     'game.rocket.math.description': 'Launch your rocket to space by solving multiplication problems',
     'game.mult.ninja.title': 'Multiplication Ninja',
     'game.mult.ninja.description': 'Defeat enemies by quickly solving multiplications like a true ninja',
+    'game.fish.math.title': 'Fish Times Table',
+    'game.fish.math.description': 'Help the little fish get food by solving multiplications before the crocodile',
     
     // Game Features
     'feature.audio': '🔊 Audio',
@@ -775,6 +786,7 @@ const translations = {
     'button.retry.level': 'Retry Level',
     'button.play.again': 'Play Again',
     'button.begin.training': '⚔️ Begin Training',
+    'button.start.fishing': '🐟 Start Fishing',
     
     // Scores and feedback
     'score.final.fv': 'You got {score} out of {total} words!',
@@ -867,6 +879,8 @@ const translations = {
     'game.rocket.math.description': 'Lancia il tuo razzo nello spazio risolvendo problemi di moltiplicazione',
     'game.mult.ninja.title': 'Ninja della Moltiplicazione',
     'game.mult.ninja.description': 'Sconfiggi i nemici risolvendo rapidamente le moltiplicazioni come un vero ninja',
+    'game.fish.math.title': 'Tabelline del Pesce',
+    'game.fish.math.description': 'Aiuta il pesciolino a ottenere cibo risolvendo moltiplicazioni prima del coccodrillo',
     
     // Game Features
     'feature.audio': '🔊 Audio',
@@ -974,6 +988,7 @@ const translations = {
     'button.retry.level': 'Riprova Livello',
     'button.play.again': 'Gioca Ancora',
     'button.begin.training': '⚔️ Inizia Allenamento',
+    'button.start.fishing': '🐟 Inizia a Pescare',
     
     // Scores and feedback
     'score.final.fv': 'Hai indovinato {score} su {total} parole!',
