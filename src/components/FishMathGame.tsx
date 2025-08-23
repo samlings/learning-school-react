@@ -321,9 +321,9 @@ const FishMathGame: React.FC = () => {
       <div className="fish-math-game">
         <div className="game-finished">
           <div className="underwater-background"></div>
-          <h2>🐟 Mestre Pescador Alcançado! 🐟</h2>
-          <p>Pontuação final: {score}</p>
-          <p>O peixinho cresceu e está muito feliz!</p>
+          <h2>{t('fish.master.achieved')}</h2>
+          <p>{t('fish.final.score', { score })}</p>
+          <p>{t('fish.happy.fish')}</p>
           <button onClick={restartGame} className="restart-btn">
             {t('button.play.again')}
           </button>
@@ -340,12 +340,12 @@ const FishMathGame: React.FC = () => {
       <div className="fish-math-game">
         <div className="level-completed">
           <div className="underwater-background"></div>
-          <h2>🐟 Aquário: {getAquariumName(currentLevel)} 🐟</h2>
+          <h2>{t('fish.aquarium', { aquarium: getAquariumName(currentLevel) })}</h2>
           <div className="level-stats">
-            <p>Perguntas corretas: {correctAnswers}/{questionsAnswered}</p>
-            <p>Precisão: {accuracy}%</p>
-            <p>Comida do peixe: {fishFood}</p>
-            <p>Comida do crocodilo: {crocodileFood}</p>
+            <p>{t('fish.questions.correct', { correct: correctAnswers, total: questionsAnswered })}</p>
+            <p>{t('fish.accuracy', { accuracy })}</p>
+            <p>{t('fish.fish.food', { food: fishFood })}</p>
+            <p>{t('fish.crocodile.food', { food: crocodileFood })}</p>
             <div className="stars">
               {'⭐'.repeat(stars)}
             </div>
@@ -370,13 +370,13 @@ const FishMathGame: React.FC = () => {
       <div className="fish-math-game">
         <div className="game-start">
           <div className="underwater-background"></div>
-          <h2>🐟 Tabuada do Peixe 🐟</h2>
+          <h2>{t('fish.title')}</h2>
           <div className="level-info">
-            <h3>Aquário: {getAquariumName(currentLevel)}</h3>
-            <p>Tabuada do: {currentGameLevel?.table}x</p>
-            <p>Perguntas: {currentGameLevel?.questionsCount}</p>
-            <p>Tempo limite: {currentGameLevel?.timeLimit}s</p>
-            <p>Ajuda o peixinho a conseguir mais comida que o crocodilo!</p>
+            <h3>{t('fish.aquarium.name', { aquarium: getAquariumName(currentLevel) })}</h3>
+            <p>{t('fish.times.table', { table: currentGameLevel?.table })}</p>
+            <p>{t('fish.questions', { count: currentGameLevel?.questionsCount })}</p>
+            <p>{t('fish.time.limit', { time: currentGameLevel?.timeLimit })}</p>
+            <p>{t('fish.help.instruction')}</p>
           </div>
           <button onClick={startLevel} className="start-btn">
             {t('button.start.fishing')} 🐟
@@ -393,19 +393,19 @@ const FishMathGame: React.FC = () => {
       <div className="game-header">
         <div className="game-stats">
           <div className="stat">
-            <span className="stat-label">Nível</span>
+            <span className="stat-label">{t('stat.label.level')}</span>
             <span className="stat-value">{currentLevel + 1}</span>
           </div>
           <div className="stat">
-            <span className="stat-label">Pontos</span>
+            <span className="stat-label">{t('stat.label.points')}</span>
             <span className="stat-value">{score}</span>
           </div>
           <div className="stat">
-            <span className="stat-label">Tempo</span>
+            <span className="stat-label">{t('stat.label.time')}</span>
             <span className="stat-value">{timeLeft}s</span>
           </div>
           <div className="stat">
-            <span className="stat-label">Progresso</span>
+            <span className="stat-label">{t('stat.label.progress')}</span>
             <span className="stat-value">{questionsAnswered}/{currentGameLevel?.questionsCount}</span>
           </div>
         </div>
@@ -450,11 +450,11 @@ const FishMathGame: React.FC = () => {
         
         <div className="food-counters">
           <div className="fish-food-counter">
-            <span className="counter-label">🐟 Peixe</span>
+            <span className="counter-label">{t('fish.counter.fish')}</span>
             <span className="counter-value">{fishFood}</span>
           </div>
           <div className="crocodile-food-counter">
-            <span className="counter-label">🐊 Crocodilo</span>
+            <span className="counter-label">{t('fish.counter.crocodile')}</span>
             <span className="counter-value">{crocodileFood}</span>
           </div>
         </div>
@@ -490,11 +490,11 @@ const FishMathGame: React.FC = () => {
           {showResult && (
             <div className={`result-message ${selectedAnswer === currentQuestion.answer ? 'correct' : 'incorrect'}`}>
               {selectedAnswer === currentQuestion.answer 
-                ? '🐟 O peixe conseguiu a comida!' 
-                : '🐊 O crocodilo levou a comida!'
+                ? t('fish.got.food') 
+                : t('fish.crocodile.got.food')
               }
               {selectedAnswer !== currentQuestion.answer && (
-                <div>Resposta correta: {currentQuestion.answer}</div>
+                <div>{t('result.correct.answer', { answer: currentQuestion.answer })}</div>
               )}
             </div>
           )}

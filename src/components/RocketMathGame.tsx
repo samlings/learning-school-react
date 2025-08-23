@@ -198,8 +198,8 @@ const RocketMathGame: React.FC = () => {
         <div className="game-finished">
           <div className="space-background"></div>
           <h2>🚀 {t('result.congratulations')} 🚀</h2>
-          <p>Pontuação final: {score}</p>
-          <p>Chegaste ao teu destino no espaço!</p>
+          <p>{t('rocket.final.score', { score })}</p>
+          <p>{t('rocket.reached.destination')}</p>
           <button onClick={restartGame} className="restart-btn">
             {t('button.play.again')}
           </button>
@@ -216,11 +216,11 @@ const RocketMathGame: React.FC = () => {
       <div className="rocket-math-game">
         <div className="level-completed">
           <div className="space-background"></div>
-          <h2>🪐 Planeta alcançado: {getPlanetName(currentLevel)} 🪐</h2>
+          <h2>{t('rocket.planet.reached', { planet: getPlanetName(currentLevel) })}</h2>
           <div className="level-stats">
-            <p>Perguntas corretas: {correctAnswers}/{questionsAnswered}</p>
-            <p>Precisão: {accuracy}%</p>
-            <p>Combustível recolhido: {fuel}</p>
+            <p>{t('rocket.questions.correct', { correct: correctAnswers, total: questionsAnswered })}</p>
+            <p>{t('rocket.accuracy', { accuracy })}</p>
+            <p>{t('rocket.fuel.collected', { fuel })}</p>
             <div className="stars">
               {'⭐'.repeat(stars)}
             </div>
@@ -245,12 +245,12 @@ const RocketMathGame: React.FC = () => {
       <div className="rocket-math-game">
         <div className="game-start">
           <div className="space-background"></div>
-          <h2>🚀 Foguetão da Tabuada 🚀</h2>
+          <h2>{t('rocket.title')}</h2>
           <div className="level-info">
-            <h3>Planeta: {getPlanetName(currentLevel)}</h3>
-            <p>Tabuada do: {currentGameLevel?.table}x</p>
-            <p>Perguntas: {currentGameLevel?.questionsCount}</p>
-            <p>Tempo limite: {currentGameLevel?.timeLimit}s</p>
+            <h3>{t('rocket.planet', { planet: getPlanetName(currentLevel) })}</h3>
+            <p>{t('rocket.times.table', { table: currentGameLevel?.table })}</p>
+            <p>{t('rocket.questions', { count: currentGameLevel?.questionsCount })}</p>
+            <p>{t('rocket.time.limit', { time: currentGameLevel?.timeLimit })}</p>
           </div>
           <button onClick={startLevel} className="start-btn">
             {t('button.launch.rocket')} 🚀
@@ -267,19 +267,19 @@ const RocketMathGame: React.FC = () => {
       <div className="game-header">
         <div className="game-stats">
           <div className="stat">
-            <span className="stat-label">Nível</span>
+            <span className="stat-label">{t('stat.label.level')}</span>
             <span className="stat-value">{currentLevel + 1}</span>
           </div>
           <div className="stat">
-            <span className="stat-label">Pontos</span>
+            <span className="stat-label">{t('stat.label.points')}</span>
             <span className="stat-value">{score}</span>
           </div>
           <div className="stat">
-            <span className="stat-label">Tempo</span>
+            <span className="stat-label">{t('stat.label.time')}</span>
             <span className="stat-value">{timeLeft}s</span>
           </div>
           <div className="stat">
-            <span className="stat-label">Progresso</span>
+            <span className="stat-label">{t('stat.label.progress')}</span>
             <span className="stat-value">{questionsAnswered}/{currentGameLevel?.questionsCount}</span>
           </div>
         </div>
@@ -297,7 +297,7 @@ const RocketMathGame: React.FC = () => {
         </div>
         
         <div className="fuel-gauge">
-          <div className="fuel-label">Combustível</div>
+          <div className="fuel-label">{t('stat.label.fuel')}</div>
           <div className="fuel-bar">
             <div 
               className="fuel-fill" 
@@ -337,9 +337,9 @@ const RocketMathGame: React.FC = () => {
 
           {showResult && (
             <div className={`result-message ${selectedAnswer === currentQuestion.answer ? 'correct' : 'incorrect'}`}>
-              {selectedAnswer === currentQuestion.answer ? t('result.correct') : '❌ Incorreto'}
+              {selectedAnswer === currentQuestion.answer ? t('result.correct') : t('result.incorrect')}
               {selectedAnswer !== currentQuestion.answer && (
-                <div>Resposta correta: {currentQuestion.answer}</div>
+                <div>{t('result.correct.answer', { answer: currentQuestion.answer })}</div>
               )}
             </div>
           )}

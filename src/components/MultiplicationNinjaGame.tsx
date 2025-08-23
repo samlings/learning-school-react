@@ -291,11 +291,11 @@ const MultiplicationNinjaGame: React.FC = () => {
       <div className="ninja-math-game">
         <div className="game-finished">
           <div className="dojo-background"></div>
-          <h2>🥷 Mestre Ninja Alcançado! 🥷</h2>
+          <h2>{t('ninja.master.achieved')}</h2>
           <div className="final-stats">
-            <p>Pontuação final: {score}</p>
-            <p>Combo máximo: {maxCombo}x</p>
-            <p>Dominaste todas as tabuadas!</p>
+            <p>{t('ninja.final.score', { score })}</p>
+            <p>{t('ninja.max.combo', { combo: maxCombo })}</p>
+            <p>{t('ninja.mastered.tables')}</p>
           </div>
           <button onClick={restartGame} className="restart-btn">
             {t('button.play.again')}
@@ -315,10 +315,10 @@ const MultiplicationNinjaGame: React.FC = () => {
           <div className="dojo-background"></div>
           <h2>⚔️ {t('level.complete')} ⚔️</h2>
           <div className="level-stats">
-            <p>Inimigos derrotados: {enemiesDefeated}/{currentGameLevel.enemyCount}</p>
-            <p>Precisão: {accuracy}%</p>
-            <p>Vida restante: {health}%</p>
-            <p>Combo máximo: {maxCombo}x</p>
+            <p>{t('ninja.enemies.defeated', { defeated: enemiesDefeated, total: currentGameLevel.enemyCount })}</p>
+            <p>{t('ninja.accuracy', { accuracy })}</p>
+            <p>{t('ninja.health.remaining', { health })}</p>
+            <p>{t('ninja.max.combo.achieved', { combo: maxCombo })}</p>
             <div className="stars">
               {'⭐'.repeat(stars)}
             </div>
@@ -343,12 +343,12 @@ const MultiplicationNinjaGame: React.FC = () => {
       <div className="ninja-math-game">
         <div className="game-start">
           <div className="dojo-background"></div>
-          <h2>🥷 Ninja da Multiplicação 🥷</h2>
+          <h2>{t('ninja.title')}</h2>
           <div className="level-info">
-            <h3>Tabuada do: {currentGameLevel?.table}x</h3>
-            <p>Inimigos: {currentGameLevel?.enemyCount}</p>
-            <p>Tempo limite: {currentGameLevel?.timeLimit}s</p>
-            <p>Derrota todos os inimigos resolvendo multiplicações!</p>
+            <h3>{t('ninja.times.table', { table: currentGameLevel?.table })}</h3>
+            <p>{t('ninja.enemies', { count: currentGameLevel?.enemyCount })}</p>
+            <p>{t('ninja.time.limit', { time: currentGameLevel?.timeLimit })}</p>
+            <p>{t('ninja.defeat.enemies')}</p>
           </div>
           <button onClick={startLevel} className="start-btn">
             {t('button.begin.training')} ⚔️
@@ -365,25 +365,25 @@ const MultiplicationNinjaGame: React.FC = () => {
       <div className="game-header">
         <div className="game-stats">
           <div className="stat">
-            <span className="stat-label">Nível</span>
+            <span className="stat-label">{t('stat.label.level')}</span>
             <span className="stat-value">{currentLevel + 1}</span>
           </div>
           <div className="stat">
-            <span className="stat-label">Pontos</span>
+            <span className="stat-label">{t('stat.label.points')}</span>
             <span className="stat-value">{score}</span>
           </div>
           <div className="stat">
-            <span className="stat-label">Tempo</span>
+            <span className="stat-label">{t('stat.label.time')}</span>
             <span className="stat-value">{timeLeft}s</span>
           </div>
           <div className="stat">
-            <span className="stat-label">Combo</span>
+            <span className="stat-label">{t('stat.label.combo')}</span>
             <span className="stat-value">{combo}x</span>
           </div>
         </div>
         
         <div className="health-bar">
-          <div className="health-label">Vida</div>
+          <div className="health-label">{t('stat.label.health')}</div>
           <div className="health-container">
             <div 
               className="health-fill" 
@@ -398,7 +398,7 @@ const MultiplicationNinjaGame: React.FC = () => {
         <div className="ninja-character">🥷</div>
         
         <div className="progress-info">
-          <span>Derrotados: {enemiesDefeated}/{currentGameLevel?.enemyCount}</span>
+          <span>{t('ninja.defeated', { defeated: enemiesDefeated, total: currentGameLevel?.enemyCount })}</span>
         </div>
         
         {enemies.map(enemy => (
@@ -445,7 +445,7 @@ const MultiplicationNinjaGame: React.FC = () => {
 
             {showResult && (
               <div className={`result-message ${showResult ? 'show' : ''}`}>
-                ⚔️ Golpe certeiro!
+                {t('ninja.strike.message')}
               </div>
             )}
           </div>
