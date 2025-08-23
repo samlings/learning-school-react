@@ -11,6 +11,7 @@
    - `es` (Spanish)
    - `fr` (French) 
    - `en` (English)
+   - `it` (Italian)
 3. **Never hardcode text** in JSX - always use `{t('translation.key')}`
 4. **Check existing translations** before adding new keys to avoid duplicates
 
@@ -67,7 +68,9 @@ case 'new-game':
 'new-game': {
   pt: { 'game.title': '...' },
   es: { 'game.title': '...' },
-  // ... all languages
+  fr: { 'game.title': '...' },
+  en: { 'game.title': '...' },
+  it: { 'game.title': '...' }
 }
 ```
 
@@ -129,7 +132,7 @@ case 'new-game':
 4. Are there at least 2-3 games that would use this new filter?
 
 **If you MUST add new filters:**
-1. **Add translations** to ALL 4 languages in `LanguageContext.tsx`
+1. **Add translations** to ALL 5 languages in `LanguageContext.tsx`
 2. **Use descriptive, clear names** with emojis for visual appeal
 3. **Update this documentation** with the new filter and rationale
 

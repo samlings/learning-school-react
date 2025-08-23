@@ -3,7 +3,7 @@ import type { ReactNode } from 'react'
 
 // Game translation types
 type GameId = 'fv-sounds' | 'chj-sounds' | 'hangman' | 'colors' | 'numbers' | 'home-objects' | 'geography' | 'family' | 'bubbles' | 'racing'
-type Language = 'pt' | 'es' | 'fr' | 'en'
+type Language = 'pt' | 'es' | 'fr' | 'en' | 'it'
 
 interface GameTranslations {
   [key: string]: string
@@ -61,6 +61,15 @@ const gameTranslations: Record<GameId, Record<Language, GameTranslations>> = {
       'score.final': 'You got {score} out of {total} words!',
       'feature.example.faca': 'like "Faca"',
       'feature.example.vaca': 'like "Vaca"'
+    },
+    it: {
+      'game.title': 'Suoni F e V',
+      'game.description': 'Impara a distinguere i suoni F e V attraverso immagini e parole',
+      'question.sound': 'Con che suono inizia questa parola?',
+      'result.incorrect': '❌ Ops! La risposta corretta è "{answer}"',
+      'score.final': 'Hai indovinato {score} su {total} parole!',
+      'feature.example.faca': 'come "Faca"',
+      'feature.example.vaca': 'come "Vaca"'
     }
   },
   'chj-sounds': {
@@ -99,6 +108,15 @@ const gameTranslations: Record<GameId, Record<Language, GameTranslations>> = {
       'score.final': 'You got {score} out of {total} words!',
       'feature.example.chave': 'like "Chave"',
       'feature.example.jarro': 'like "Jarro"'
+    },
+    it: {
+      'game.title': 'Suoni CH e J',
+      'game.description': 'Impara a distinguere i suoni CH e J attraverso immagini e parole',
+      'question.sound': 'Con che suono inizia questa parola?',
+      'result.incorrect': '❌ Ops! La risposta corretta è "{answer}"',
+      'score.final': 'Hai indovinato {score} su {total} parole!',
+      'feature.example.chave': 'come "Chave"',
+      'feature.example.jarro': 'come "Jarro"'
     }
   },
   'hangman': {
@@ -149,6 +167,18 @@ const gameTranslations: Record<GameId, Record<Language, GameTranslations>> = {
       'word.was': 'The word was: {word}',
       'perfect': 'You are fantastic!',
       'encouragement': 'Don\'t give up! Try again!'
+    },
+    it: {
+      'game.title': 'Gioco dell\'Impiccato',
+      'game.description': 'Scopri la parola segreta lettera per lettera prima che il disegno sia completato',
+      'errors': 'Errori: {current}/{max}',
+      'hint.label': 'Suggerimento:',
+      'choose.letter': 'Scegli una lettera:',
+      'win.message': 'Sei riuscito a scoprire la parola!',
+      'lose.message': 'Non ce l\'hai fatta questa volta...',
+      'word.was': 'La parola era: {word}',
+      'perfect': 'Sei fantastico!',
+      'encouragement': 'Non arrenderti! Riprova!'
     }
   },
   'colors': {
@@ -183,6 +213,14 @@ const gameTranslations: Record<GameId, Record<Language, GameTranslations>> = {
       'result.incorrect.translation': '❌ Oops! "{portuguese}" is "{english}" in English',
       'result.correct.translation': '✅ Correct! "{portuguese}" is "{english}" in English!',
       'score.final': 'You got {score} out of {total} colors!'
+    },
+    it: {
+      'game.title': 'Colori in Inglese',
+      'game.description': 'Impara i colori in inglese attraverso immagini colorate e divertenti',
+      'question.english': 'Come si dice questo colore in inglese?',
+      'result.incorrect.translation': '❌ Ops! "{portuguese}" è "{english}" in inglese',
+      'result.correct.translation': '✅ Corretto! "{portuguese}" è "{english}" in inglese!',
+      'score.final': 'Hai indovinato {score} su {total} colori!'
     }
   },
   'numbers': {
@@ -209,6 +247,12 @@ const gameTranslations: Record<GameId, Record<Language, GameTranslations>> = {
       'game.description': 'Learn numbers 1 to 10 in English in a fun way',
       'question.english': 'How do you say this number in English?',
       'score.final': 'You got {score} out of {total} numbers!'
+    },
+    it: {
+      'game.title': 'Numeri in Inglese',
+      'game.description': 'Impara i numeri da 1 a 10 in inglese in modo divertente',
+      'question.english': 'Come si dice questo numero in inglese?',
+      'score.final': 'Hai indovinato {score} su {total} numeri!'
     }
   },
   'home-objects': {
@@ -235,6 +279,12 @@ const gameTranslations: Record<GameId, Record<Language, GameTranslations>> = {
       'game.description': 'Learn the names of home objects in English',
       'question.english': 'How do you say this object in English?',
       'score.final': 'You got {score} out of {total} objects!'
+    },
+    it: {
+      'game.title': 'Oggetti di Casa',
+      'game.description': 'Impara i nomi degli oggetti di casa in inglese',
+      'question.english': 'Come si dice questo oggetto in inglese?',
+      'score.final': 'Hai indovinato {score} su {total} oggetti!'
     }
   },
   'geography': {
@@ -269,6 +319,14 @@ const gameTranslations: Record<GameId, Record<Language, GameTranslations>> = {
       'question.flag': 'Which country does this flag belong to?',
       'question.capital': 'Which country has this capital?',
       'score.final': 'You got {score} out of {total} geography questions!'
+    },
+    it: {
+      'game.title': 'Quiz di Geografia',
+      'game.description': 'Scopri paesi, capitali e bandiere di tutto il mondo',
+      'question.country': 'Qual è la capitale di questo paese?',
+      'question.flag': 'Di quale paese è questa bandiera?',
+      'question.capital': 'Quale paese ha questa capitale?',
+      'score.final': 'Hai indovinato {score} su {total} domande di geografia!'
     }
   },
   'family': {
@@ -299,6 +357,13 @@ const gameTranslations: Record<GameId, Record<Language, GameTranslations>> = {
       'question.member': 'Who is this family member?',
       'question.english': 'How do you say this family member in English?',
       'score.final': 'You got {score} out of {total} family members!'
+    },
+    it: {
+      'game.title': 'Membri della Famiglia',
+      'game.description': 'Impara i nomi dei membri della famiglia in inglese',
+      'question.member': 'Chi è questo membro della famiglia?',
+      'question.english': 'Come si dice questo membro della famiglia in inglese?',
+      'score.final': 'Hai indovinato {score} su {total} membri della famiglia!'
     }
   },
   'bubbles': {
@@ -329,6 +394,13 @@ const gameTranslations: Record<GameId, Record<Language, GameTranslations>> = {
       'question.pop': 'Pop the bubbles with the letter {letter}!',
       'question.word': 'Pop the bubbles to form the word "{word}"!',
       'score.final': 'You popped {score} out of {total} bubbles!'
+    },
+    it: {
+      'game.title': 'Bolle di Parole',
+      'game.description': 'Fai scoppiare le bolle con le lettere o parole corrette',
+      'question.pop': 'Fai scoppiare le bolle con la lettera {letter}!',
+      'question.word': 'Fai scoppiare le bolle per formare la parola "{word}"!',
+      'score.final': 'Hai fatto scoppiare {score} su {total} bolle!'
     }
   },
   'racing': {
@@ -359,6 +431,13 @@ const gameTranslations: Record<GameId, Record<Language, GameTranslations>> = {
       'question.type': 'Type the letter {letter} to accelerate!',
       'question.progress': 'Keep typing to win the race!',
       'score.final': 'You completed {score} out of {total} races!'
+    },
+    it: {
+      'game.title': 'Corsa dell\'Alfabeto',
+      'game.description': 'Scrivi le lettere per far avanzare la macchina nella corsa',
+      'question.type': 'Scrivi la lettera {letter} per accelerare!',
+      'question.progress': 'Continua a scrivere per vincere la gara!',
+      'score.final': 'Hai completato {score} su {total} gare!'
     }
   }
 }

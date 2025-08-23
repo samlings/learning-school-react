@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useState } from 'react'
 import type { ReactNode } from 'react'
 
-type Language = 'pt' | 'es' | 'fr' | 'en'
+type Language = 'pt' | 'es' | 'fr' | 'en' | 'it'
 
 interface LanguageContextType {
   language: Language
@@ -771,6 +771,196 @@ const translations = {
     'hangman.word.was': 'The word was: {word}',
     'hangman.perfect': 'You are fantastic!',
     'hangman.encouragement': 'Don\'t give up! Try again!'
+  },
+  it: {
+    // App Header
+    'app.title': '🚀 Gioca e Impara 🚀',
+    'app.subtitle': 'Dove giocare e imparare si incontrano in modo divertente!',
+    'app.footer': 'Fatto con ❤️ per i bambini delle scuole portoghesi',
+    'back.menu': '← Torna al Menu',
+    'loading.game': 'Caricamento gioco...',
+    
+    // About page
+    'about.button': 'ℹ️ Informazioni',
+    'about.title': 'Informazioni su Gioca e Impara',
+    'about.subtitle': 'La tua piattaforma di apprendimento divertente e interattiva',
+    'about.mission.title': 'La Nostra Missione',
+    'about.mission.description': 'Creiamo giochi educativi divertenti per aiutare i bambini portoghesi ad imparare in modo interattivo. Il nostro obiettivo è rendere l\'apprendimento un\'avventura emozionante!',
+    'about.features.title': 'Caratteristiche Principali',
+    'about.features.multilingual': 'Supporto per più lingue (Portoghese, Inglese, Spagnolo, Francese, Italiano)',
+    'about.features.educational': 'Giochi educativi basati sul curriculum scolastico portoghese',
+    'about.features.interactive': 'Esperienze di apprendimento interattive e coinvolgenti',
+    'about.features.free': 'Completamente gratuito per tutti i bambini e le scuole',
+    'about.team.title': 'Il Nostro Team',
+    'about.team.description': 'Siamo un team di educatori, programmatori e designer appassionati di creare strumenti educativi innovativi per i nostri bambini.',
+    'about.contact.title': 'Contattaci',
+    'about.contact.email': 'Email',
+    'about.contact.website': 'Sito web',
+    'about.footer.made.with.love': 'Fatto con tanto ❤️ per le scuole del Portogallo',
+    
+    // Game Menu
+    'menu.title': '🎮 Scegli il tuo Gioco! 🎮',
+    'menu.subtitle': 'Seleziona un gioco divertente per scoprire nuovi mondi di apprendimento!',
+    'menu.tip': '💡 Suggerimento: Puoi tornare al menu principale in qualsiasi momento!',
+    'button.play': '▶️ Gioca',
+    
+    // Game Cards
+    'game.fv.title': 'Suoni F e V',
+    'game.fv.description': 'Impara a distinguere i suoni F e V attraverso immagini e parole',
+    'game.chj.title': 'Suoni CH e J',
+    'game.chj.description': 'Impara a distinguere i suoni CH e J attraverso immagini e parole',
+    'game.hangman.title': 'Gioco dell\'Impiccato',
+    'game.hangman.description': 'Scopri la parola segreta lettera per lettera prima che il disegno sia completato',
+    'game.colors.title': 'Colori in Inglese',
+    'game.colors.description': 'Impara i colori in inglese attraverso immagini colorate e divertenti',
+    'game.numbers.title': 'Numeri in Inglese',
+    'game.numbers.description': 'Impara i numeri da 1 a 10 in inglese in modo divertente',
+    'game.home.title': 'Oggetti di Casa',
+    'game.home.description': 'Impara i nomi degli oggetti di casa in inglese',
+    'game.geography.title': 'Quiz di Geografia',
+    'game.geography.description': 'Scopri paesi, capitali e bandiere di tutto il mondo',
+    'game.family.title': 'Membri della Famiglia',
+    'game.family.description': 'Impara i nomi dei membri della famiglia in inglese',
+    'game.bubbles.title': 'Bolle di Parole',
+    'game.bubbles.description': 'Fai scoppiare le bolle con le lettere o parole corrette',
+    'game.racing.title': 'Corsa dell\'Alfabeto',
+    'game.racing.description': 'Scrivi le lettere per far avanzare la macchina nella corsa',
+    'game.number.bubbles.title': 'Bolle di Numeri',
+    'game.number.bubbles.description': 'Fai scoppiare le bolle con i numeri che soddisfano la sfida matematica',
+    
+    // Game Features
+    'feature.audio': '🔊 Audio',
+    'feature.images': '🖼️ Immagini',
+    'feature.easy': '⭐ Facile',
+    'feature.medium': '⭐⭐ Medio',
+    'feature.hard': '⭐⭐⭐ Difficile',
+    'feature.alphabet': '🔤 Alfabeto',
+    'feature.drawing': '🎨 Disegno',
+    'feature.colors': '🎨 Colori',
+    'feature.english': '🇬🇧 Inglese',
+    'feature.numbers': '🔢 Numeri',
+    'feature.home': '🏠 Casa',
+    'feature.geography': '🌍 Geografia',
+    'feature.family': '👨‍👩‍👧‍👦 Famiglia',
+    'feature.world': '🗺️ Mondo',
+    'feature.interactive': '🎮 Interattivo',
+    'feature.bubbles': '💭 Bolle',
+    'feature.typing': '⌨️ Scrittura',
+    'feature.speed': '⚡ Velocità',
+    'feature.letters': '🔤 Lettere',
+    
+    // Filter System
+    'filter.title': 'Filtra Giochi',
+    'filter.category': 'Categoria',
+    'filter.difficulty': 'Difficoltà',
+    'filter.features': 'Caratteristiche',
+    'filter.clear': 'Pulisci Tutto',
+    'filter.expand': 'Espandi',
+    'filter.collapse': 'Comprimi',
+    'filter.of': 'di',
+    'filter.games': 'giochi',
+    'filter.no.results': 'Nessun gioco corrisponde ai filtri selezionati',
+    'filter.no.results.suggestion': 'Prova a rimuovere alcuni filtri per vedere più giochi',
+    
+    // Categories
+    'category.sounds': '🎵 Suoni',
+    'category.english': '🇬🇧 Inglese',
+    'category.words': '📝 Parole',
+    'category.geography': '🌍 Geografia',
+    'category.family': '👨‍👩‍👧‍👦 Famiglia',
+    'category.interactive': '🎮 Interattivo',
+    
+    // Difficulties
+    'difficulty.easy': '⭐ Facile',
+    'difficulty.medium': '⭐⭐ Medio',
+    'difficulty.hard': '⭐⭐⭐ Difficile',
+    
+    // Game Common
+    'game.question.number': 'Domanda {current} di {total}',
+    'game.score': 'Punteggio: {score}',
+    'button.listen': '🔊 Ascolta',
+    'button.listen.word': '🔊 Ascolta la Parola',
+    'button.new.game': '🔄 Gioca Ancora',
+    'button.try.again': '🔄 Riprova',
+    'button.new.word': '🔄 Nuova Parola',
+    
+    // Level System
+    'level.complete': '🎉 Livello Completato! 🎉',
+    'level.excellent': 'Lavoro eccellente!',
+    'level.current': 'Livello {current} di {total}',
+    
+    // Game Results
+    'result.congratulations': '🎉 Congratulazioni! 🎉',
+    'result.sorry': '😔 Peccato! 😔',
+    'result.correct': '✅ Corretto! Molto bene!',
+    'result.incorrect.fv': '❌ Ops! La risposta corretta è "{answer}"',
+    'result.incorrect.chj': '❌ Ops! La risposta corretta è "{answer}"',
+    'result.incorrect.translation': '❌ Ops! "{portuguese}" è "{english}" in inglese',
+    'result.correct.translation': '✅ Corretto! "{portuguese}" è "{english}" in inglese!',
+    
+    // Questions
+    'question.fv.sound': 'Con che suono inizia questa parola?',
+    'question.chj.sound': 'Con che suono inizia questa parola?',
+    'question.color.english': 'Come si dice questo colore in inglese?',
+    'question.number.english': 'Come si dice questo numero in inglese?',
+    'question.object.english': 'Come si dice questo oggetto in inglese?',
+    'question.geography.country': 'Qual è la capitale di questo paese?',
+    'question.geography.flag': 'Di quale paese è questa bandiera?',
+    'question.geography.capital': 'Quale paese ha questa capitale?',
+    'question.family.member': 'Chi è questo membro della famiglia?',
+    'question.family.english': 'Come si dice questo membro della famiglia in inglese?',
+    'question.bubbles.pop': 'Fai scoppiare le bolle con la lettera {letter}!',
+    'question.bubbles.word': 'Fai scoppiare le bolle per formare la parola "{word}"!',
+    'question.racing.type': 'Scrivi la lettera {letter} per accelerare!',
+    'question.racing.progress': 'Continua a scrivere per vincere la gara!',
+    
+    // Number Bubbles Challenges
+    'challenge.numbers.even': 'Fai scoppiare le bolle con numeri PARI',
+    'challenge.numbers.odd': 'Fai scoppiare le bolle con numeri DISPARI',
+    'challenge.numbers.greater': 'Fai scoppiare le bolle con numeri MAGGIORI di {value}',
+    'challenge.numbers.less': 'Fai scoppiare le bolle con numeri MINORI di {value}',
+    'challenge.numbers.multiples': 'Fai scoppiare le bolle con MULTIPLI di {value}',
+    'challenge.numbers.prime': 'Fai scoppiare le bolle con numeri PRIMI',
+    'challenge.current': 'Sfida',
+    'found.count': 'Trovati',
+    'time.limit': 'Limite di tempo',
+    'time.seconds': 'secondi',
+    'target.find': 'Trova',
+    'numbers.correct': 'numeri corretti',
+    'number.range': 'Numeri da',
+    'button.start.level': 'Inizia Livello',
+    
+    // Scores and feedback
+    'score.final.fv': 'Hai indovinato {score} su {total} parole!',
+    'score.final.chj': 'Hai indovinato {score} su {total} parole!',
+    'score.final.colors': 'Hai indovinato {score} su {total} colori!',
+    'score.final.numbers': 'Hai indovinato {score} su {total} numeri!',
+    'score.final.home': 'Hai indovinato {score} su {total} oggetti!',
+    'score.final.hangman': 'Hai indovinato {score} su {total} parole!',
+    'score.final.geography': 'Hai indovinato {score} su {total} domande di geografia!',
+    'score.final.family': 'Hai indovinato {score} su {total} membri della famiglia!',
+    'score.final.bubbles': 'Hai fatto scoppiare {score} su {total} bolle!',
+    'score.final.racing': 'Hai completato {score} su {total} gare!',
+    'score.final.number.bubbles': 'Hai completato {score} su {total} livelli di numeri!',
+    'score.perfect': 'Perfetto! Sei un campione! 🏆',
+    'score.good': 'Molto bene! Continua a esercitarti! 👏',
+    'score.practice': 'Continua a provare! Ce la farai! 💪',
+    
+    // Examples
+    'feature.example.faca': 'come "Faca"',
+    'feature.example.vaca': 'come "Vaca"',
+    'feature.example.chave': 'come "Chave"',
+    'feature.example.jarro': 'come "Jarro"',
+    
+    // Hangman specific
+    'hangman.errors': 'Errori: {current}/{max}',
+    'hangman.hint.label': 'Suggerimento:',
+    'hangman.choose.letter': 'Scegli una lettera:',
+    'hangman.win.message': 'Sei riuscito a scoprire la parola!',
+    'hangman.lose.message': 'Non ce l\'hai fatta questa volta...',
+    'hangman.word.was': 'La parola era: {word}',
+    'hangman.perfect': 'Sei fantastico!',
+    'hangman.encouragement': 'Non arrenderti! Riprova!'
   }
 }
 

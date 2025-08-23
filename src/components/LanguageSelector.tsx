@@ -6,7 +6,8 @@ const languages = [
   { code: 'pt', name: 'Português', flag: '🇵🇹' },
   { code: 'es', name: 'Español', flag: '🇪🇸' },
   { code: 'fr', name: 'Français', flag: '🇫🇷' },
-  { code: 'en', name: 'English', flag: '🇬🇧' }
+  { code: 'en', name: 'English', flag: '🇬🇧' },
+  { code: 'it', name: 'Italiano', flag: '🇮🇹' }
 ] as const
 
 const LanguageSelector: React.FC = () => {
@@ -15,7 +16,7 @@ const LanguageSelector: React.FC = () => {
 
   const currentLanguage = languages.find(lang => lang.code === language)
 
-  const handleLanguageChange = (langCode: 'pt' | 'es' | 'fr' | 'en') => {
+  const handleLanguageChange = (langCode: 'pt' | 'es' | 'fr' | 'en' | 'it') => {
     setLanguage(langCode)
     setIsOpen(false)
   }
