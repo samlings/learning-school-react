@@ -36,7 +36,11 @@ const GameMenu: React.FC<GameMenuProps> = ({ onSelectGame }) => {
     'geography': '🌍',
     'family': '👨‍👩‍👧‍👦',
     'bubbles': '💭',
-    'racing': '🚗'
+    'racing': '🚗',
+    'number-bubbles': '🫧',
+    'rocket-math': '🚀',
+    'mult-ninja': '🥷',
+    'fish-math': '🐟'
   }
 
   // English games that should show the UK flag
