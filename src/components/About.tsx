@@ -39,12 +39,12 @@ const About: React.FC = () => {
             <p>
               <span className="contact-icon">📧</span>
               <span>{t('about.contact.email')}: </span>
-              <a href="mailto:contact@aventuraescolar.pt">contact@aventuraescolar.pt</a>
+              <a href="mailto:contact@joga-aprende.pt">emailsoon@test.com</a>
             </p>
             <p>
               <span className="contact-icon">🌐</span>
               <span>{t('about.contact.website')}: </span>
-              <a href="#" target="_blank" rel="noopener noreferrer">www.aventuraescolar.pt</a>
+              <a href="#" target="_blank" rel="noopener noreferrer">www.joga-aprende.vercel.app</a>
             </p>
           </div>
         </section>

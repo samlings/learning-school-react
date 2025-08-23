@@ -14,15 +14,15 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 const translations = {
   pt: {
     // App Header
-    'app.title': '🚀 Aventura Escolar 🚀',
-    'app.subtitle': 'Descobre novos mundos através de jogos educativos divertidos!',
+    'app.title': '🚀 Joga e Aprende 🚀',
+    'app.subtitle': 'Onde jogar e aprender se encontram de forma divertida!',
     'app.footer': 'Feito com ❤️ para crianças das escolas de Portugal',
     'back.menu': '← Voltar ao Menu',
     'loading.game': 'A carregar jogo...',
     
     // About page
     'about.button': 'ℹ️ Sobre',
-    'about.title': 'Sobre a Aventura Escolar',
+    'about.title': 'Sobre o Joga e Aprende',
     'about.subtitle': 'A tua plataforma de aprendizagem divertida e interativa',
     'about.mission.title': 'A Nossa Missão',
     'about.mission.description': 'Criamos jogos educativos divertidos para ajudar as crianças portuguesas a aprenderem de forma interativa. O nosso objetivo é tornar a aprendizagem uma aventura emocionante!',
@@ -204,15 +204,15 @@ const translations = {
   },
   es: {
     // App Header
-    'app.title': '🚀 Aventura Escolar 🚀',
-    'app.subtitle': '¡Descubre nuevos mundos a través de juegos educativos divertidos!',
+    'app.title': '🚀 Juega y Aprende 🚀',
+    'app.subtitle': '¡Donde jugar y aprender se encuentran de forma divertida!',
     'app.footer': 'Hecho con ❤️ para niños en escuelas de Portugal',
     'back.menu': '← Volver al Menú',
     'loading.game': 'Cargando juego...',
     
     // About page
     'about.button': 'ℹ️ Acerca de',
-    'about.title': 'Acerca de Aventura Escolar',
+    'about.title': 'Acerca de Juega y Aprende',
     'about.subtitle': 'Tu plataforma de aprendizaje divertida e interactiva',
     'about.mission.title': 'Nuestra Misión',
     'about.mission.description': 'Creamos juegos educativos divertidos para ayudar a los niños portugueses a aprender de forma interactiva. ¡Nuestro objetivo es hacer del aprendizaje una aventura emocionante!',
@@ -394,15 +394,15 @@ const translations = {
   },
   fr: {
     // App Header
-    'app.title': '🚀 Aventure Scolaire 🚀',
-    'app.subtitle': 'Découvre de nouveaux mondes à travers des jeux éducatifs amusants !',
+    'app.title': '🚀 Joue et Apprends 🚀',
+    'app.subtitle': 'Où jouer et apprendre se rencontrent de façon amusante !',
     'app.footer': 'Fait avec ❤️ pour les écoliers portugais',
     'back.menu': '← Retour au Menu',
     'loading.game': 'Chargement du jeu...',
     
     // About page
     'about.button': 'ℹ️ À propos',
-    'about.title': 'À propos d\'Aventure Scolaire',
+    'about.title': 'À propos de Joue et Apprends',
     'about.subtitle': 'Votre plateforme d\'apprentissage amusante et interactive',
     'about.mission.title': 'Notre Mission',
     'about.mission.description': 'Nous créons des jeux éducatifs amusants pour aider les enfants portugais à apprendre de manière interactive. Notre objectif est de faire de l\'apprentissage une aventure passionnante !',
@@ -584,15 +584,15 @@ const translations = {
   },
   en: {
     // App Header
-    'app.title': '🚀 School Adventure 🚀',
-    'app.subtitle': 'Discover new worlds through fun educational games!',
+    'app.title': '🚀 Play & Study 🚀',
+    'app.subtitle': 'Where play and learning meet in a fun way!',
     'app.footer': 'Made with ❤️ for Portuguese school children',
     'back.menu': '← Back to Menu',
     'loading.game': 'Loading game...',
     
     // About page
     'about.button': 'ℹ️ About',
-    'about.title': 'About School Adventure',
+    'about.title': 'About Play & Study',
     'about.subtitle': 'Your fun and interactive learning platform',
     'about.mission.title': 'Our Mission',
     'about.mission.description': 'We create fun educational games to help Portuguese children learn interactively. Our goal is to make learning an exciting adventure!',

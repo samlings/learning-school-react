@@ -23,7 +23,7 @@ export const SEOHead: React.FC<SEOHeadProps> = ({
   const game = gameId ? getGameById(gameId) : undefined
   
   // Build title
-  const baseTitle = "Learning Games App"
+  const baseTitle = "Play & Study"
   let pageTitle = baseTitle
   
   if (customTitle) {
@@ -67,7 +67,7 @@ export const SEOHead: React.FC<SEOHeadProps> = ({
   const allKeywords = [...baseKeywords, ...customKeywords].join(', ')
 
   // Build canonical URL
-  const baseUrl = 'https://learning-app.vercel.app'
+  const baseUrl = 'https://joga-aprende.vercel.app'
   let canonicalUrl = baseUrl
   
   if (gameId) {
@@ -102,13 +102,13 @@ export const SEOHead: React.FC<SEOHeadProps> = ({
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Learning Games App",
+      "name": "Play & Study",
       "url": baseUrl
     }
   } : {
     "@context": "https://schema.org",
     "@type": "WebApplication",
-    "name": "Learning Games App",
+    "name": "Play & Study",
     "description": "Interactive educational games for kids and language learning",
     "applicationCategory": "EducationalApplication",
     "operatingSystem": "web browser",
@@ -120,7 +120,7 @@ export const SEOHead: React.FC<SEOHeadProps> = ({
     "inLanguage": ["en", "pt", "es", "fr"],
     "publisher": {
       "@type": "Organization",
-      "name": "Learning Games App",
+      "name": "Play & Study",
       "url": baseUrl
     }
   }, [game, t, baseUrl])

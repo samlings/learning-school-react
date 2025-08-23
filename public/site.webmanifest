@@ -1,7 +1,7 @@
 {
-  "name": "Learning Games App - Educational Games for Kids",
-  "short_name": "Learning Games",
-  "description": "Interactive educational games for kids featuring sound games, vocabulary learning, hangman, geography, and more. Available in multiple languages.",
+  "name": "Play & Study - Educational Games for Kids",
+  "short_name": "Play & Study",
+  "description": "Where play and learning meet! Interactive educational games for kids featuring sound games, vocabulary learning, hangman, geography, and more. Available in multiple languages.",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
