@@ -18,6 +18,8 @@ const FamilyGame = lazy(() => import('./components/FamilyGame'))
 const WordBubblesGame = lazy(() => import('./components/WordBubblesGame'))
 const RacingGame = lazy(() => import('./components/RacingGame'))
 const NumberBubblesGame = lazy(() => import('./components/NumberBubblesGame'))
+const RocketMathGame = lazy(() => import('./components/RocketMathGame'))
+const MultiplicationNinjaGame = lazy(() => import('./components/MultiplicationNinjaGame'))
 const About = lazy(() => import('./components/About'))
 
 type CurrentScreen = 'menu' | 'about' | GameId
@@ -75,6 +77,10 @@ function App() {
         return <GameLoader><RacingGame /></GameLoader>
       case 'number-bubbles':
         return <GameLoader><NumberBubblesGame /></GameLoader>
+      case 'rocket-math':
+        return <GameLoader><RocketMathGame /></GameLoader>
+      case 'mult-ninja':
+        return <GameLoader><MultiplicationNinjaGame /></GameLoader>
       default:
         return <GameMenu onSelectGame={handleSelectGame} />
     }

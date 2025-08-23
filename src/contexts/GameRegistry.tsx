@@ -2,7 +2,7 @@ import React, { createContext, useContext } from 'react'
 import type { ReactNode } from 'react'
 
 // Game registry types
-export type GameId = 'fv-sounds' | 'chj-sounds' | 'hangman' | 'colors' | 'numbers' | 'home-objects' | 'geography' | 'family' | 'bubbles' | 'racing' | 'number-bubbles'
+export type GameId = 'fv-sounds' | 'chj-sounds' | 'hangman' | 'colors' | 'numbers' | 'home-objects' | 'geography' | 'family' | 'bubbles' | 'racing' | 'number-bubbles' | 'rocket-math' | 'mult-ninja'
 
 export interface GameFeature {
   key: string
@@ -163,6 +163,32 @@ const gameRegistry: Record<GameId, GameMetadata> = {
       { key: 'hard', icon: '⭐⭐⭐', translationKey: 'feature.hard' }
     ],
     chunkSize: 50
+  },
+  'rocket-math': {
+    id: 'rocket-math',
+    titleKey: 'game.rocket.math.title',
+    descriptionKey: 'game.rocket.math.description',
+    category: 'interactive',
+    difficulty: 'medium',
+    features: [
+      { key: 'numbers', icon: '🔢', translationKey: 'feature.numbers' },
+      { key: 'interactive', icon: '🎮', translationKey: 'feature.interactive' },
+      { key: 'medium', icon: '⭐⭐', translationKey: 'feature.medium' }
+    ],
+    chunkSize: 45
+  },
+  'mult-ninja': {
+    id: 'mult-ninja',
+    titleKey: 'game.mult.ninja.title',
+    descriptionKey: 'game.mult.ninja.description',
+    category: 'interactive',
+    difficulty: 'medium',
+    features: [
+      { key: 'numbers', icon: '🔢', translationKey: 'feature.numbers' },
+      { key: 'interactive', icon: '🎮', translationKey: 'feature.interactive' },
+      { key: 'speed', icon: '⚡', translationKey: 'feature.speed' }
+    ],
+    chunkSize: 45
   }
 }
 

@@ -67,6 +67,10 @@ const translations = {
     'game.racing.description': 'Escreve as letras para fazer o carro avançar na corrida',
     'game.number.bubbles.title': 'Bolhas de Números',
     'game.number.bubbles.description': 'Rebenta as bolhas com os números que cumprem o desafio matemático',
+    'game.rocket.math.title': 'Foguetão da Tabuada',
+    'game.rocket.math.description': 'Lança o teu foguetão para o espaço resolvendo problemas de multiplicação',
+    'game.mult.ninja.title': 'Ninja da Multiplicação',
+    'game.mult.ninja.description': 'Derrota os inimigos resolvendo rapidamente multiplicações como um verdadeiro ninja',
     
     // Game Features
     'feature.audio': '🔊 Audio',
@@ -169,6 +173,11 @@ const translations = {
     'numbers.correct': 'números corretos',
     'number.range': 'Números de',
     'button.start.level': 'Começar Nível',
+    'button.launch.rocket': '🚀 Lançar Foguetão',
+    'button.next.level': 'Próximo Nível',
+    'button.retry.level': 'Repetir Nível',
+    'button.play.again': 'Jogar Novamente',
+    'button.begin.training': '⚔️ Iniciar Treino',
     
     // Scores and feedback
     'score.final.fv': 'Acertaste {score} de {total} palavras!',
@@ -257,6 +266,10 @@ const translations = {
     'game.racing.description': 'Escribe las letras para hacer que el coche avance en la carrera',
     'game.number.bubbles.title': 'Burbujas de Números',
     'game.number.bubbles.description': 'Revienta las burbujas con los números que cumplen el desafío matemático',
+    'game.rocket.math.title': 'Cohete de la Tabla',
+    'game.rocket.math.description': 'Lanza tu cohete al espacio resolviendo problemas de multiplicación',
+    'game.mult.ninja.title': 'Ninja de la Multiplicación',
+    'game.mult.ninja.description': 'Derrota a los enemigos resolviendo rápidamente multiplicaciones como un verdadero ninja',
     
     // Game Features
     'feature.audio': '🔊 Audio',
@@ -359,6 +372,11 @@ const translations = {
     'numbers.correct': 'números correctos',
     'number.range': 'Números de',
     'button.start.level': 'Empezar Nivel',
+    'button.launch.rocket': '🚀 Lanzar Cohete',
+    'button.next.level': 'Siguiente Nivel',
+    'button.retry.level': 'Repetir Nivel',
+    'button.play.again': 'Jugar de Nuevo',
+    'button.begin.training': '⚔️ Comenzar Entrenamiento',
     
     // Scores and feedback
     'score.final.fv': '¡Acertaste {score} de {total} palabras!',
@@ -447,6 +465,10 @@ const translations = {
     'game.racing.description': 'Écris les lettres pour faire avancer la voiture dans la course',
     'game.number.bubbles.title': 'Bulles de Nombres',
     'game.number.bubbles.description': 'Éclate les bulles avec les nombres qui relèvent le défi mathématique',
+    'game.rocket.math.title': 'Fusée des Tables',
+    'game.rocket.math.description': 'Lance ta fusée dans l\'espace en résolvant des problèmes de multiplication',
+    'game.mult.ninja.title': 'Ninja de la Multiplication',
+    'game.mult.ninja.description': 'Défais les ennemis en résolvant rapidement les multiplications comme un vrai ninja',
     
     // Game Features
     'feature.audio': '🔊 Audio',
@@ -549,6 +571,11 @@ const translations = {
     'numbers.correct': 'nombres corrects',
     'number.range': 'Nombres de',
     'button.start.level': 'Commencer Niveau',
+    'button.launch.rocket': '🚀 Lancer la Fusée',
+    'button.next.level': 'Niveau Suivant',
+    'button.retry.level': 'Recommencer le Niveau',
+    'button.play.again': 'Rejouer',
+    'button.begin.training': '⚔️ Commencer l\'Entraînement',
     
     // Scores and feedback
     'score.final.fv': 'Tu as eu {score} sur {total} mots !',
@@ -637,6 +664,10 @@ const translations = {
     'game.racing.description': 'Type letters to make the car race forward',
     'game.number.bubbles.title': 'Number Bubbles',
     'game.number.bubbles.description': 'Pop bubbles with numbers that meet the mathematical challenge',
+    'game.rocket.math.title': 'Times Table Rocket',
+    'game.rocket.math.description': 'Launch your rocket to space by solving multiplication problems',
+    'game.mult.ninja.title': 'Multiplication Ninja',
+    'game.mult.ninja.description': 'Defeat enemies by quickly solving multiplications like a true ninja',
     
     // Game Features
     'feature.audio': '🔊 Audio',
@@ -739,6 +770,11 @@ const translations = {
     'numbers.correct': 'correct numbers',
     'number.range': 'Numbers from',
     'button.start.level': 'Start Level',
+    'button.launch.rocket': '🚀 Launch Rocket',
+    'button.next.level': 'Next Level',
+    'button.retry.level': 'Retry Level',
+    'button.play.again': 'Play Again',
+    'button.begin.training': '⚔️ Begin Training',
     
     // Scores and feedback
     'score.final.fv': 'You got {score} out of {total} words!',
@@ -827,6 +863,10 @@ const translations = {
     'game.racing.description': 'Scrivi le lettere per far avanzare la macchina nella corsa',
     'game.number.bubbles.title': 'Bolle di Numeri',
     'game.number.bubbles.description': 'Fai scoppiare le bolle con i numeri che soddisfano la sfida matematica',
+    'game.rocket.math.title': 'Razzo delle Tabelline',
+    'game.rocket.math.description': 'Lancia il tuo razzo nello spazio risolvendo problemi di moltiplicazione',
+    'game.mult.ninja.title': 'Ninja della Moltiplicazione',
+    'game.mult.ninja.description': 'Sconfiggi i nemici risolvendo rapidamente le moltiplicazioni come un vero ninja',
     
     // Game Features
     'feature.audio': '🔊 Audio',
@@ -929,6 +969,11 @@ const translations = {
     'numbers.correct': 'numeri corretti',
     'number.range': 'Numeri da',
     'button.start.level': 'Inizia Livello',
+    'button.launch.rocket': '🚀 Lancia Razzo',
+    'button.next.level': 'Livello Successivo',
+    'button.retry.level': 'Riprova Livello',
+    'button.play.again': 'Gioca Ancora',
+    'button.begin.training': '⚔️ Inizia Allenamento',
     
     // Scores and feedback
     'score.final.fv': 'Hai indovinato {score} su {total} parole!',
